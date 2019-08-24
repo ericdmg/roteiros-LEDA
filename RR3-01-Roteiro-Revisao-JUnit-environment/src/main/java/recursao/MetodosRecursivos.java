@@ -1,9 +1,27 @@
 package recursao;
 
+import java.lang.reflect.Array;
+
 public class MetodosRecursivos {
 	public static void main(String[] args) {
+		System.out.println("\n--- FATORIAL ---");
 		calcularFatorial(10);
+
+		System.out.println("\n--- FIBONACCI ---");
 		System.out.println(calcularFibonacci(3));
+
+		System.out.println("\n--- POTÊNCIA DE 2 ---");
+		System.out.println(potenciaDe2(4));
+
+		System.out.println("\n--- COUNT NOT NULL ---");
+		Object[] array = new Object[10];
+		for (int i = 1; i < array.length; i++){
+			if(i <= 4) {
+				array[i - 1] = i;
+			}
+		}
+		System.out.println(countNotNull(array));
+
 	}
 
 	public static int calcularSomaArray(int[] array){
@@ -35,20 +53,27 @@ public class MetodosRecursivos {
 		return calcularFibonacci(n-1) + calcularFibonacci(n-2);
 	}
 
-	public int countNotNull(Object[] array) {
-		int result = 0;
-		// TODO IMPLEMENTE AQUI O CODIGO QUE CONTA (USANDO RECURSAO) A
-		// QUANTIDADE DE ELEMENTOS NAO NULOS
-		// DE UM ARRAY DE OBJETOS RECEBIDO COMO PARAMETRO
-		return result;
+	public static int countNotNull(Object[] array) {
+		return countNotNullAuxiliar(array, 0);
 	}
 
-	public long potenciaDe2(int expoente) {
-		int result = 1;
-		// TODO IMPLEMENTE (USANDO RECURSAO) O CODIGO PARA PRODUZIR A N-ESIMA
-		// POTENCIA
-		// DE 2
-		return result;
+	public static int countNotNullAuxiliar(Object[] array,int index){
+		int soma = 0;
+		if (array.length == 0 || index == array.length){
+			return 0;
+		}
+		else if(array[index] != null){
+			soma += 1;
+		}
+		return soma + countNotNullAuxiliar(array, index+1);
+	}
+
+	private static double potenciaDe2(int expoente) {
+		if (expoente == 0){
+			return 1;
+		}
+
+		return 2 * potenciaDe2(expoente - 1);
 	}
 
 	public double progressaoAritmetica(double termoInicial, double razao, int n) {
