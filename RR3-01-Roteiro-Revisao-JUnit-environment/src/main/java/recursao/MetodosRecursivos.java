@@ -22,6 +22,13 @@ public class MetodosRecursivos {
 		}
 		System.out.println(countNotNull(array));
 
+		System.out.println("\n--- PROGRESSÃO ARITMÉTICA ---");
+		System.out.println(progressaoAritmetica(1,5,5));
+
+		System.out.println("\n--- PROGRESSÃO GEOMÉTRICA ---");
+		System.out.println(progressaoGeometrica(1,3,5));
+
+
 	}
 
 	public static int calcularSomaArray(int[] array){
@@ -76,20 +83,18 @@ public class MetodosRecursivos {
 		return 2 * potenciaDe2(expoente - 1);
 	}
 
-	public double progressaoAritmetica(double termoInicial, double razao, int n) {
-		double result = 0;
-		// TODO IMPLEMENTE SEU CODIGO (USANDO RECURSAO) DE ENCONTRAR O n-ESIMO
-		// TERMO
-		// DA PROGRESSAO ARITMETICA, DADO O TERMO INICIAL E A RAZAO
-		return result;
+	public static double progressaoAritmetica(double termoInicial, double razao, int n) {
+		if(n == 1){
+			return termoInicial;
+		}
+		return razao + progressaoAritmetica(termoInicial,razao,n-1);
 	}
 
-	public double progressaoGeometrica(double termoInicial, double razao, int n) {
-		double result = 1;
-		// TODO IMPLEMENTE SEU CODIGO (USANDO RECURSAO) DE ENCONTRAR O n-ESIMO
-		// TERMO
-		// DA PROGRESSAO GEOMETRICA, DADO O TERMO INICIAL E A RAZAO
-		return result;
+	public static double progressaoGeometrica(double termoInicial, double razao, int n) {
+		if(n == 1){
+			return termoInicial;
+		}
+		return razao * progressaoGeometrica(termoInicial,razao,n-1);
 	}
 
 
