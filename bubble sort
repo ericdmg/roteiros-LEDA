@@ -1,0 +1,16 @@
+boolean swapped = true;
+            int i;
+            int j = rightIndex;
+            while (swapped) {
+                swapped = false;
+            for(i = leftIndex; i <= j; i++){
+                if(array[i] > array[i+1]){
+                    int cache = array[i];
+                    array[i] = array[i+1];
+                    array[i+1] = cache;
+                    swapped = true;
+                }
+
+            }
+        }
+    }
