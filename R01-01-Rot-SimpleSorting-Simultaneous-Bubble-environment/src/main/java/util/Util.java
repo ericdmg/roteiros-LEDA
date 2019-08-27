@@ -40,4 +40,15 @@ public class Util {
 		}
 		return result;
 	}
+
+	public static boolean validaOrdenacao(Object[] array, int leftIndex, int rightIndex){
+		boolean retorno;
+		if ((array != null) && (leftIndex < rightIndex) && (leftIndex >= 0) && (rightIndex > 0)
+				&& (rightIndex < array.length)) {
+			retorno = true;
+		}
+		else retorno = false;
+
+		return retorno;
+	}
 }

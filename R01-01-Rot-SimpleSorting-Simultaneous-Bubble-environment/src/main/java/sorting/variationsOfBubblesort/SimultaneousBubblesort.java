@@ -3,6 +3,7 @@ package sorting.variationsOfBubblesort;
 import sorting.AbstractSorting;
 
 import static util.Util.swap;
+import static util.Util.validaOrdenacao;
 
 /**
  * This algorithm applies two bubblesorts simultaneously. In a same iteration, a
@@ -14,32 +15,37 @@ import static util.Util.swap;
  * is completely ordered.
  */
 public class SimultaneousBubblesort<T extends Comparable<T>> extends AbstractSorting<T> {
+	/**
+	 *As flags maximoDireita e maximoEsquerda servem pra denotar o índice máximo que o
+	 *elemento da vez da iteração pode ir, dependendo do sentido.
+	 */
 
-	public void sort(T[] array, int leftIndex, int rightIndex){
-		for (int i = leftIndex; i <= rightIndex; i++){
+	public void sort(T[] array, int leftIndex, int rightIndex) {
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
+			for (int i = leftIndex; i <= rightIndex; i++) {
 
-			int j = leftIndex;
-			int k = rightIndex;
-			boolean maximoDireita = false;
-			boolean maximoEsquerda = false;
-			while(!maximoDireita && !maximoEsquerda){
-				if(array[j].compareTo(array[j+1]) > 0){
-					swap(array, j, j+1);
+				int j = leftIndex;
+				int k = rightIndex;
+
+				while (j < rightIndex - 1 && k > leftIndex + 1) {
 					j++;
-				}
-
-				else maximoDireita = true;
-
-				if(array[k].compareTo(array[k-1]) < 0 ){
-					swap(array, k, k-1);
 					k--;
+					if (array[j].compareTo(array[j + 1]) > 0) {
+						swap(array, j, j + 1);
+
+					}
+
+
+					if (array[k].compareTo(array[k - 1]) < 0) {
+						swap(array, k, k - 1);
+
+					}
 				}
-				else maximoEsquerda = true;
 			}
 		}
 	}
-
 }
+
 
 
 

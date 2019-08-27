@@ -3,6 +3,7 @@ package sorting.simpleSorting;
 import sorting.AbstractSorting;
 
 import static util.Util.swap;
+import static util.Util.validaOrdenacao;
 
 
 /**
@@ -15,11 +16,13 @@ public class InsertionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		for (int i = leftIndex+1; i <= rightIndex; i++){
-			int j = i-1;
-			while(j >= leftIndex && array[j].compareTo(array[j+1]) > 0){
-			swap(array,j,j+1);
-			j--;
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
+			for (int i = leftIndex + 1; i <= rightIndex; i++) {
+				int j = i - 1;
+				while (j >= leftIndex && array[j].compareTo(array[j + 1]) > 0) {
+					swap(array, j, j + 1);
+					j--;
+				}
 			}
 		}
 	}
