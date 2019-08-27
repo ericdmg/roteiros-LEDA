@@ -2,6 +2,9 @@ package sorting.simpleSorting;
 
 import sorting.AbstractSorting;
 
+import static util.Util.swap;
+
+
 /**
  * As the insertion sort algorithm iterates over the array, it makes the
  * assumption that the visited positions are already sorted in ascending order,
@@ -12,7 +15,12 @@ public class InsertionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		for (int i = leftIndex+1; i <= rightIndex; i++){
+			int j = i-1;
+			while(j >= leftIndex && array[j].compareTo(array[j+1]) > 0){
+			swap(array,j,j+1);
+			j--;
+			}
+		}
 	}
 }
