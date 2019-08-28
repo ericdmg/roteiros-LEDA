@@ -22,29 +22,36 @@ public class SimultaneousBubblesort<T extends Comparable<T>> extends AbstractSor
 
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		if (validaOrdenacao(array, leftIndex, rightIndex)) {
-			for (int i = leftIndex; i <= rightIndex; i++) {
 
-				int j = leftIndex;
-				int k = rightIndex;
+			int limiteDireita = rightIndex;
+			int limiteEsquerda = leftIndex;
+			boolean swapped = true;
+			while(swapped && limiteEsquerda < limiteDireita){
+				swapped = false;
 
-				while (j < rightIndex - 1 && k > leftIndex + 1) {
-					j++;
-					k--;
-					if (array[j].compareTo(array[j + 1]) > 0) {
-						swap(array, j, j + 1);
-
-					}
-
-
-					if (array[k].compareTo(array[k - 1]) < 0) {
-						swap(array, k, k - 1);
-
+				int i;
+				for (i = leftIndex; i < rightIndex; i++){
+					if(array[i].compareTo(array[i+1]) > 0){
+						swap(array,i,i+1);
+						swapped = true;
 					}
 				}
+				limiteDireita--;
+
+				int k;
+				for (k = rightIndex; k > leftIndex; k--){
+					if (array[k].compareTo(array[k-1]) < 0){
+						swap(array, k, k-1);
+						swapped = true;
+					}
+				}
+				limiteEsquerda++;
+
 			}
 		}
 	}
 }
+
 
 
 

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a32adb0-2bbf-4304-b987-fe5554d6a262" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210349-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/118210349.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118210349.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/variationsOfBubblesort/SimultaneousBubblesort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/variationsOfBubblesort/SimultaneousBubblesort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/static/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/static/js/chart.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
               <folding>
                 <element signature="e#2023#2024#0" expanded="true" />
                 <element signature="e#2054#2055#0" expanded="true" />
@@ -90,23 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="286">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,13 +140,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
       </list>
     </option>
   </component>
@@ -364,8 +343,8 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.StudentSortingTest.testSort01" />
-      <item itemvalue="Maven.rodar maven" />
       <item itemvalue="JUnit.StudentSortingTest" />
+      <item itemvalue="Maven.rodar maven" />
     </list>
     <recent_temporary>
       <list>
@@ -386,41 +365,50 @@
       <option name="presentableId" value="Default" />
       <updated>1566846525484</updated>
       <workItem from="1566855935061" duration="14798000" />
-      <workItem from="1566934162961" duration="4502000" />
+      <workItem from="1566934162961" duration="8218000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentSortingTest - 2019.08.27 at 19h 31m 17s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 32m 32s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.08.27 at 19h 31m 37s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 32m 42s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.08.27 at 19h 31m 57s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 32m 52s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.08.27 at 19h 32m 08s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 33m 05s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.08.27 at 19h 33m 53s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 33m 13s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.08.27 at 19h 34m 02s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 33m 23s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 05m 15s.xml">
+    <history-entry file="StudentSortingTest - 2019.08.27 at 20h 33m 31s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.08.27 at 22h 19m 58s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.08.27 at 22h 21m 36s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.08.27 at 22h 21m 40s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19300000" />
+    <option name="totallyTimeSpent" value="23016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39008793" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.39008793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +417,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30550918" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30550918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39732888" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -566,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
           <folding>
             <element signature="e#2023#2024#0" expanded="true" />
             <element signature="e#2054#2055#0" expanded="true" />
@@ -579,6 +557,16 @@
             <element signature="e#2263#2264#0" expanded="true" />
             <element signature="e#2299#2300#0" expanded="true" />
             <element signature="e#2340#2341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
