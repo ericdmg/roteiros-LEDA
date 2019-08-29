@@ -1,0 +1,37 @@
+public static void quicksort(int[] v, int left, int right) {
+        if (left < right) {
+            int j = separar(v, left, right);
+            quicksort(v, left, j - 1);
+            quicksort(v, j + 1, right);
+        }
+    }
+    private static int separar(int[] v, int left, int right) {
+        int i = left + 1;
+        int j = right;
+        int pivot = v[left];
+
+        while(i <= j){
+            if(v[i] <= pivot){
+                i++;
+            }
+            else if(v[j] > pivot){
+                j--;
+            }
+            else if(i<=j){
+                trocar(v,i,j);
+                i++;
+                j--;
+            }
+        }
+
+        trocar(v,j,left);
+        return j;
+    }
+
+    private static void trocar(int[] v, int j, int k) {
+        int temp = v[j];
+        v[j] = v[k];
+        v[k] = temp;
+
+    }
+

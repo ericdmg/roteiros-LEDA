@@ -1,0 +1,50 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int v[] = {4,6,7,3,5,1,2,8};
+        int w[] = new int[v.length];
+        mergeSort(v,w, 0, v.length - 1);
+        System.out.println(Arrays.toString(v));
+    }
+
+    private static void mergeSort(int[] array, int[] arrayAuxiliar, int leftIndex, int rightIndex) {
+        if(leftIndex < rightIndex){
+            int middle = (leftIndex + rightIndex ) / 2;
+            mergeSort(array,arrayAuxiliar,leftIndex,middle);
+            mergeSort(array,arrayAuxiliar,middle + 1,rightIndex);
+            intercalar(array,arrayAuxiliar,leftIndex,middle,rightIndex);
+        }
+    }
+
+    private static void intercalar(int[] array, int[] arrayAuxiliar, int leftIndex, int middle, int rightIndex) {
+        for (int k = leftIndex; k <= rightIndex; k++){
+            arrayAuxiliar[k] = array[k];
+        }
+
+        int i = leftIndex;
+        int j = middle + 1;
+
+        for (int k = leftIndex; k <= rightIndex; k++){
+            if (i > middle ){
+                array[k] = arrayAuxiliar[j];
+                j++;
+            }
+            else if(j > rightIndex){
+                array[k] = arrayAuxiliar[i];
+                i++;
+            }
+            else if (arrayAuxiliar[i] < arrayAuxiliar[j]){
+                array[k] = arrayAuxiliar[i];
+                i++;
+            }
+            else {
+                array[k] = arrayAuxiliar[j];
+                j++;
+            }
+        }
+    }
+
+}
+
