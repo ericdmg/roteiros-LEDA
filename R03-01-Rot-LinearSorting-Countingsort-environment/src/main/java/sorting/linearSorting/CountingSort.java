@@ -2,6 +2,7 @@ package sorting.linearSorting;
 
 import sorting.AbstractSorting;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -40,12 +41,13 @@ public class CountingSort extends AbstractSorting<Integer> {
 
 		int[] auxB = new int[array.length];
 		for (int m = rightIndex; m >= leftIndex; m--){
-			array[m]
+			auxB[countArray[array[m]-1] - 1] = array[m];
+			countArray[array[m]-1]--;
 
 
 		}
+		System.out.println(Arrays.toString(array));
 		System.out.println(Arrays.toString(auxB));
-
 
 	}
 
