@@ -17,11 +17,13 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		if (leftIndex < rightIndex) {
-			int j = separar(array, leftIndex, rightIndex);
-			sort(array, leftIndex, j - 1);
-			sort(array, j + 1, rightIndex);
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
+			if (leftIndex < rightIndex) {
+				int j = separar(array, leftIndex, rightIndex);
+				sort(array, leftIndex, j - 1);
+				sort(array, j + 1, rightIndex);
 
+			}
 		}
 	}
 
@@ -30,20 +32,29 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		int i = leftIndex + 1;
 		T pivo = array[leftIndex];
 
-		while(i <= j){
-			if(pivo.compareTo(array[i]) > 0 || pivo.compareTo(array[i]) == 0 ){
+		while (i <= j) {
+			if (pivo.compareTo(array[i]) > 0 || pivo.compareTo(array[i]) == 0) {
 				i++;
-			}
-			else if(pivo.compareTo(array[j]) < 0){
+			} else if (pivo.compareTo(array[j]) < 0) {
 				j--;
-			}
-			else if(i <= j){
+			} else if (i <= j) {
 				swap(array, i, j);
 				i++;
 				j--;
 			}
 		}
-		swap(array,leftIndex,j);
+		swap(array, leftIndex, j);
 		return j;
+	}
+
+	private boolean validaOrdenacao(Object[] array, int leftIndex, int rightIndex){
+		boolean retorno;
+		if ((array != null) && (leftIndex < rightIndex) && (leftIndex >= 0) && (rightIndex > 0)
+				&& (rightIndex < array.length)) {
+			retorno = true;
+		}
+		else retorno = false;
+
+		return retorno;
 	}
 }

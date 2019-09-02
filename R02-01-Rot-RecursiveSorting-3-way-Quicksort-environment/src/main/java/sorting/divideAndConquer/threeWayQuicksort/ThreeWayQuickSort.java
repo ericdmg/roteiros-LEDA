@@ -27,12 +27,15 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 	 **/
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		if(rightIndex >= leftIndex) {
-			int[] extremos = partition(array, leftIndex, rightIndex);
-			sort(array, leftIndex, extremos[1] - 1);
-			sort(array, extremos[0] + 1, rightIndex);
-		}
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
 
+			if (rightIndex >= leftIndex) {
+				int[] extremos = partition(array, leftIndex, rightIndex);
+				sort(array, leftIndex, extremos[1] - 1);
+				sort(array, extremos[0] + 1, rightIndex);
+			}
+
+		}
 	}
 
 	private int[] partition(T[] array, int leftIndex, int rightIndex) {
@@ -59,6 +62,15 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 		int[] extremos = {pivotInicio, pivotFim};
 		return extremos;
 	}
+	private boolean validaOrdenacao(Object[] array, int leftIndex, int rightIndex){
+		boolean retorno;
+		if ((array != null) && (leftIndex < rightIndex) && (leftIndex >= 0) && (rightIndex > 0)
+				&& (rightIndex < array.length)) {
+			retorno = true;
+		}
+		else retorno = false;
 
+		return retorno;
+	}
 
 }

@@ -12,46 +12,62 @@ public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		T[] arrayAuxiliar = (T[])new Comparable[array.length];
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
 
-		mergeSort(array, arrayAuxiliar, leftIndex, rightIndex);
+			T[] arrayAuxiliar = (T[]) new Comparable[array.length];
+			mergeSort(array, arrayAuxiliar, leftIndex, rightIndex);
+		}
 	}
 
 	private void mergeSort(T[] array, T[] arrayAuxiliar, int leftIndex, int rightIndex) {
-		if (leftIndex < rightIndex) {
-			int meio = (leftIndex + rightIndex) / 2;
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
 
-			mergeSort(array, arrayAuxiliar, leftIndex, meio);
-			mergeSort(array, arrayAuxiliar, meio + 1, rightIndex);
-			unir(array, arrayAuxiliar, leftIndex, meio, rightIndex);
+			if (leftIndex < rightIndex) {
+				int meio = (leftIndex + rightIndex) / 2;
+
+				mergeSort(array, arrayAuxiliar, leftIndex, meio);
+				mergeSort(array, arrayAuxiliar, meio + 1, rightIndex);
+				unir(array, arrayAuxiliar, leftIndex, meio, rightIndex);
+			}
 		}
 	}
 
 	private void unir(T[] array, T[] arrayAuxiliar, int leftIndex, int meio, int rightIndex) {
-		for (int index = leftIndex; index <= rightIndex; index++){
-			arrayAuxiliar[index] = array[index];
-		}
+		if (validaOrdenacao(array, leftIndex, rightIndex)) {
 
-		int i = leftIndex;
-		int j = meio + 1;
+			for (int index = leftIndex; index <= rightIndex; index++) {
+				arrayAuxiliar[index] = array[index];
+			}
 
-		for(int k = leftIndex; k <= rightIndex; k++){
-			if(i > meio){
-				array[k] = arrayAuxiliar[j];
-				j++;
-			}
-			else if(j > rightIndex){
-				array[k] = arrayAuxiliar[i];
-				i++;
-			}
-			else if(arrayAuxiliar[i].compareTo(arrayAuxiliar[j]) < 0){
-				array[k] = arrayAuxiliar[i];
-				i++;
-			}
-			else{
-				array[k] = arrayAuxiliar[j];
-				j++;
+			int i = leftIndex;
+			int j = meio + 1;
+
+			for (int k = leftIndex; k <= rightIndex; k++) {
+				if (i > meio) {
+					array[k] = arrayAuxiliar[j];
+					j++;
+				} else if (j > rightIndex) {
+					array[k] = arrayAuxiliar[i];
+					i++;
+				} else if (arrayAuxiliar[i].compareTo(arrayAuxiliar[j]) < 0) {
+					array[k] = arrayAuxiliar[i];
+					i++;
+				} else {
+					array[k] = arrayAuxiliar[j];
+					j++;
+				}
 			}
 		}
+	}
+
+	private boolean validaOrdenacao(Object[] array, int leftIndex, int rightIndex){
+		boolean retorno;
+		if ((array != null) && (leftIndex < rightIndex) && (leftIndex >= 0) && (rightIndex > 0)
+				&& (rightIndex < array.length)) {
+			retorno = true;
+		}
+		else retorno = false;
+
+		return retorno;
 	}
 }
