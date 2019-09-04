@@ -2,7 +2,6 @@ package sorting.linearSorting;
 
 import sorting.AbstractSorting;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -13,42 +12,53 @@ import java.util.Arrays;
  */
 public class CountingSort extends AbstractSorting<Integer> {
 
-	@Override
-	public void sort(Integer[] array, int leftIndex, int rightIndex) {
+   @Override
+   public void sort(Integer[] array, int leftIndex, int rightIndex) {
+      if (array != null && leftIndex < rightIndex && leftIndex >= 0 && rightIndex < array.length) {
 
-		Integer maior = array[leftIndex];
-		Integer menor = array[leftIndex];
+         Integer[] maiorMenor = calculaMaiorMenor(array, leftIndex, rightIndex);
+         int maior = maiorMenor[0];
+         int menor = maiorMenor[1];
 
-		for(int i = leftIndex; i <= rightIndex; i++){
-			if(array[i].compareTo(maior) > 0){
-				maior = array[i];
-			}
-			else if(array[i].compareTo(maior) < 0){
-				menor = array[i];
-			}
-		}
+         Integer[] countArray = new Integer[maior + 1];
+         Arrays.fill(countArray, 0);
 
-		int[] countArray = new int[array.length];
-		for (int k = leftIndex; k <= rightIndex; k++){
-			countArray[array[k] - 1] += 1;
-		}
-		System.out.println(Arrays.toString(countArray));
+         Integer[] arrayAuxiliar = new Integer[array.length];
+         Arrays.fill(arrayAuxiliar, 0);
 
-		for (int j = leftIndex + 1; j <= rightIndex; j++){
-			countArray[j] += countArray[j-1];
-		}
-		System.out.println(Arrays.toString(countArray));
+         for (int k = leftIndex; k <= rightIndex; k++) {
+            countArray[array[k]] += 1;
+         }
 
-		int[] auxB = new int[array.length];
-		for (int m = rightIndex; m >= leftIndex; m--){
-			auxB[countArray[array[m]-1] - 1] = array[m];
-			countArray[array[m]-1]--;
+         for (int j = leftIndex + 1; j < countArray.length; j++) {
+            countArray[j] += countArray[j - 1];
 
+         }
 
-		}
-		System.out.println(Arrays.toString(array));
-		System.out.println(Arrays.toString(auxB));
+         for (int i = rightIndex; i >= leftIndex; i--) {
+            arrayAuxiliar[countArray[array[i]] - 1] = array[i];
+            countArray[array[i]] -= 1;
+         }
 
-	}
+         for (int j = leftIndex; j <= rightIndex; j++) {
+            array[j] = arrayAuxiliar[j];
+         }
 
+      }
+
+   }
+
+   private Integer[] calculaMaiorMenor(Integer[] array, int leftIndex, int rightIndex) {
+      int maior = Integer.MIN_VALUE;
+      int menor = Integer.MAX_VALUE;
+      for (int i = leftIndex; i <= rightIndex; i++) {
+         if (array[i].compareTo(maior) > 0) {
+            maior = array[i];
+         } else if (array[i].compareTo(menor) < 0) {
+            menor = array[i];
+         }
+      }
+      Integer[] maiorMenor = { maior, menor };
+      return maiorMenor;
+   }
 }
