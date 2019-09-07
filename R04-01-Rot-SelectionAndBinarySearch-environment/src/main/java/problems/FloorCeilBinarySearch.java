@@ -15,14 +15,71 @@ public class FloorCeilBinarySearch implements FloorCeil {
 
 	@Override
 	public Integer floor(Integer[] array, Integer x) {
-		// TODO implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return binarySearchFloor(array, 0, array.length - 1, x);
+	}
+
+	private Integer binarySearchFloor(Integer[] array, int leftIndex, int rightIndex, Integer x) {
+		Integer retorno = null;
+		int meio = (leftIndex + rightIndex) / 2;
+
+		if(array != null && array.length > 0  && x != null) {
+
+			if (leftIndex <= rightIndex) {
+				if (array[meio].compareTo(x) == 0) {
+					retorno = array[meio];
+				}
+
+				else if (array[meio].compareTo(x) > 0) {
+					retorno = binarySearchFloor(array, leftIndex, meio-1, x);
+				}
+
+				else retorno = binarySearchFloor(array, meio + 1, rightIndex, x);
+
+			}
+
+			else {
+
+				if (array[meio].compareTo(x) < 0 || array[meio].compareTo(x) == 0) {
+					retorno = array[meio];
+				}
+			}
+		}
+
+		return retorno;
 	}
 
 	@Override
 	public Integer ceil(Integer[] array, Integer x) {
-		// TODO implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return binarySearchCeil(array, 0, array.length - 1, x);
 	}
 
+	private Integer binarySearchCeil(Integer[] array, int leftIndex, int rightIndex, Integer x) {
+		Integer retorno = null;
+		int meio = (leftIndex + rightIndex) / 2;
+		if(array != null && array.length > 0 && x != null) {
+
+			if (leftIndex < rightIndex) {
+				if (array[meio].compareTo(x) == 0) {
+					retorno = array[meio];
+
+				}
+
+				else if (array[meio].compareTo(x) > 0) {
+					retorno = binarySearchCeil(array, leftIndex, meio, x);
+
+				}
+
+				else retorno = binarySearchCeil(array, meio + 1, rightIndex, x);
+			}
+
+			else if (array[meio].compareTo(x) > 0 || array[meio].compareTo(x) == 0) {
+					retorno = array[meio];
+
+			}
+		}
+
+			return retorno;
+
+	}
 }
+

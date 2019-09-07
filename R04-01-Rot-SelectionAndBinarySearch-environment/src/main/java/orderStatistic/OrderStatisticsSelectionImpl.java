@@ -21,21 +21,26 @@ public class OrderStatisticsSelectionImpl<T extends Comparable<T>> implements Or
 	 */
 	@Override
 	public T getOrderStatistics(T[] array, int k) {
-		T menor = array[0];
-		for (int i = 0; i < array.length; i++) {
-			if (array[i].compareTo(menor) < 0) {
-				menor = array[i];
-			}
-		}
-		return selectionSearch(array,menor,k-1);
 
-	}
+
+			if (array == null || k >= array.length || k < 1) {
+				return null;
+			}
+			T menor = array[0];
+			for (int i = 0; i < array.length; i++) {
+				if (array[i].compareTo(menor) < 0) {
+					menor = array[i];
+				}
+			}
+			return selectionSearch(array, menor, k - 1);
+
+		}
+
 
 	public T selectionSearch(T[] array, T menorAnterior, int k) {
 		if(k == 0){
 			return menorAnterior;
 		}
-
 		T aux = null;
 		for (int i = 0; i < array.length; i++) {
 			if (array[i].compareTo(menorAnterior) > 0) {

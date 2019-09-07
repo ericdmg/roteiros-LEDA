@@ -1,0 +1,50 @@
+import orderStatistic.OrderStatisticsSelectionImpl;
+import problems.FloorCeilBinarySearch;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+        OrderStatisticsSelectionImpl orderStatisticsSelection = new OrderStatisticsSelectionImpl();
+        FloorCeilBinarySearch floorCeilBinarySearch = new FloorCeilBinarySearch();
+        Integer[] array = {1, 2, 2, 5, 6, 7, 7, 8, 8, 9};
+        Integer[] array3 = {0, 1, 1, 1, 2, 3, 4, 5, 6, 8};
+        Integer[] array2 = geradorArray(10);
+
+        //System.out.println(Arrays.toString(array2));
+        //System.out.println(orderStatisticsSelection.getOrderStatistics(array2,2));
+
+
+
+        System.out.println("--- TESTANDO CEIL ---");
+        Arrays.sort(array2);
+        for(int count = 0; count<array2.length; count++){
+            System.out.println("\n" + Arrays.toString(array2));
+            System.out.println("Count = " + count);
+            System.out.println("CEIL = " + floorCeilBinarySearch.ceil(array2,count));
+       }
+
+        //for(int count = 0; count<array2.length; count++){
+            //System.out.println("\n" + Arrays.toString(array2));
+           // System.out.println("Count = " + count);
+            //System.out.println("floor = " + floorCeilBinarySearch.floor(array2,count));
+       // }
+        //System.out.println(Arrays.toString(array2));
+        //System.out.println(floorCeilBinarySearch.ceil(array2,4));
+        //System.out.println(floorCeilBinarySearch.ceil(array2,4));
+
+
+    }
+
+
+    private static Integer[] geradorArray(int n){
+        Random gerador = new Random();
+        Integer []v = new Integer[n];
+        for(int i = 0; i < n; i++){
+            v[i] = gerador.nextInt(n);
+        }
+        return v;
+    }
+}
+
