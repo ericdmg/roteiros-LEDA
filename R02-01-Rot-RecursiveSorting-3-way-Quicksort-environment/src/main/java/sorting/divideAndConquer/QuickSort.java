@@ -2,6 +2,8 @@ package sorting.divideAndConquer;
 
 import sorting.AbstractSorting;
 
+import java.util.Arrays;
+
 import static util.Util.swap;
 
 
@@ -38,12 +40,15 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			} else if (pivo.compareTo(array[j]) < 0) {
 				j--;
 			} else if (i <= j) {
+				System.out.println(Arrays.toString(array));
 				swap(array, i, j);
 				i++;
 				j--;
 			}
 		}
 		swap(array, leftIndex, j);
+
+		System.out.println(j);
 		return j;
 	}
 

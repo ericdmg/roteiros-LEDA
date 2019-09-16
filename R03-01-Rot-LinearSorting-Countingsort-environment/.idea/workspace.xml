@@ -3,14 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="317c9453-f509-4d5b-b03c-13b77c0cb3f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/classes/sorting/divideAndConquer/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/classes/sorting/divideAndConquer/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/problems/FloorCeilBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/problems/FloorCeilBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/orderStatistic/OrderStatisticsSelectionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/orderStatistic/OrderStatisticsSelectionImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/problems/FloorCeilBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/problems/FloorCeilBinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="378">
               <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -36,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="468">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +172,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -177,7 +180,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567456447543" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EPG01-2019.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -247,8 +250,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentSortingTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentSortingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +270,11 @@
       <workItem from="1567617298014" duration="925000" />
       <workItem from="1567824271881" duration="608000" />
       <workItem from="1567860216846" duration="88000" />
+      <workItem from="1567984750774" duration="609000" />
+      <workItem from="1568232762225" duration="928000" />
+      <workItem from="1568257224493" duration="1175000" />
+      <workItem from="1568290324343" duration="1811000" />
+      <workItem from="1568576757294" duration="162000" />
     </task>
     <servers />
   </component>
@@ -303,12 +311,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9851000" />
+    <option name="totallyTimeSpent" value="14536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28617105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31254995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,18 +376,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -397,6 +395,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="43" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

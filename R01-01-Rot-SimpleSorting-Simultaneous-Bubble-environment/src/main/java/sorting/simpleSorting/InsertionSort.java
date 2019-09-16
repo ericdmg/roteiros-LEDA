@@ -2,6 +2,8 @@ package sorting.simpleSorting;
 
 import sorting.AbstractSorting;
 
+import java.util.Arrays;
+
 import static util.Util.swap;
 import static util.Util.validaOrdenacao;
 
@@ -18,11 +20,15 @@ public class InsertionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		if (validaOrdenacao(array, leftIndex, rightIndex)) {
 			for (int i = leftIndex + 1; i <= rightIndex; i++) {
-				int j = i - 1;
-				while (j >= leftIndex && array[j].compareTo(array[j + 1]) > 0) {
-					swap(array, j, j + 1);
+				T key = array[i];
+				int j = i;
+				while (j > leftIndex && array[j-1].compareTo(key) > 0) {
+					swap(array, j, j - 1);
+					System.out.println(Arrays.toString(array));
 					j--;
 				}
+				System.out.println(Arrays.toString(array));
+				array[j] = key;
 			}
 		}
 	}
