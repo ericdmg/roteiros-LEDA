@@ -13,24 +13,30 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public T head() {
+		T retorno = null;
+		if (!isEmpty()) {
 			return this.array[0];
 		}
+
+		return retorno;		}
 
 
 	@Override
 	public boolean isEmpty() {
+		boolean retorno = false;
 		if(tail == -1){
-			return true;
+			retorno = true;
 		}
-		return false;
+		return retorno;
 	}
 
 	@Override
 	public boolean isFull() {
-		if(tail == this.array.length){
-			return true;
+		boolean retorno = false;
+		if(tail == this.array.length-1){
+			retorno = true;
 		}
-		return false;
+		return retorno;
 	}
 
 	private void shiftLeft() {
@@ -41,14 +47,28 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(isFull()){
+            throw new QueueOverflowException();
+        }
+		else if(element != null) {
+			this.tail++;
+			this.array[tail] = element;
+		}
 	}
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
+	    T retorno = null;
+	    if(!isEmpty()){
+	        retorno = this.array[0];
+	        shiftLeft();
+        }
+	    else{
+	        throw new QueueUnderflowException();
+        }
+
+	    return retorno;
+    }
+
 
 }
