@@ -23,7 +23,7 @@ public class OrderStatisticsSelectionImpl<T extends Comparable<T>> implements Or
 	public T getOrderStatistics(T[] array, int k) {
 
 
-			if (array == null || k >= array.length || k < 1) {
+			if (array == null || k > array.length || k < 1) {
 				return null;
 			}
 			T menor = array[0];

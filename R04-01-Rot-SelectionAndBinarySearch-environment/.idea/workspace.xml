@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ed9890-b54a-4e01-9c4e-27b9be13d508" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/classes/sorting/divideAndConquer/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/classes/sorting/divideAndConquer/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-01-Rot-LinearSorting-Countingsort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R03-01-Rot-LinearSorting-Countingsort-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,22 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="108">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/LISTA LEDA">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="702">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#418#419#0" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
@@ -107,9 +93,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" />
       </list>
     </option>
   </component>
@@ -145,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -284,17 +270,19 @@
       <workItem from="1567860310883" duration="8556000" />
       <workItem from="1567972801869" duration="719000" />
       <workItem from="1568245611112" duration="2887000" />
+      <workItem from="1568692452334" duration="422000" />
+      <workItem from="1568763132100" duration="747000" />
+      <workItem from="1568766691517" duration="2924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40927000" />
+    <option name="totallyTimeSpent" value="45020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2773781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,17 +377,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
+    <entry file="file://$USER_HOME$/LISTA LEDA">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -424,13 +408,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/LISTA LEDA">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="702">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#418#419#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
