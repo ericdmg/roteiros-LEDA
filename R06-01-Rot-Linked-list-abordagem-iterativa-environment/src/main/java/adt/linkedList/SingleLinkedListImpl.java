@@ -15,33 +15,71 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+        int size = 0;
+        SingleLinkedListNode aux = this.head;
+        while(!aux.isNIL()){
+            size++;
+            aux = aux.next;
+        }
+        return size;
 	}
 
 	@Override
 	public T search(T element) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+	    SingleLinkedListNode aux = this.head;
+	    T key = null;
+	    while(!aux.isNIL() && !element.equals(key)){
+	        aux = aux.next;
+	        key = (T) aux.data;
+        }
+	    return key;
 	}
 
 	@Override
 	public void insert(T element) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+		SingleLinkedListNode auxHead = this.head;
+		if(this.head.isNIL()){
+			SingleLinkedListNode newHead = new SingleLinkedListNode(element, this.head);
+			this.head = newHead;
+		}
+		else{
+			while (!auxHead.next.isNIL()){
+				auxHead = auxHead.next;
+			}
+			SingleLinkedListNode newNode = new SingleLinkedListNode(element, auxHead.next);
+			auxHead.next = newNode;
+		}
 	}
 
 	@Override
 	public void remove(T element) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
-	}
+        if (this.head.data.equals(element)) {
+            this.head = this.head.next;
+        } else {
+            SingleLinkedListNode aux = this.head;
+            SingleLinkedListNode previous = aux;
+            while (!aux.isNIL() && !aux.data.equals(element)) {
+                previous = aux;
+                aux = aux.next;
+            }
+            if (!aux.isNIL()) {
+                previous.next = aux.next;
+            }
+        }
+    }
 
 	@Override
 	public T[] toArray() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
-	}
+	    T[] result =  (T[]) new Comparable[size()];
+	    SingleLinkedListNode aux = head;
+	    int count = 0;
+	    while(!aux.isNIL()){
+	        result[count] = (T) aux.data;
+	        aux = aux.next;
+	        count++;
+        }
+	    return result;
+    }
 
 	public SingleLinkedListNode<T> getHead() {
 		return head;
