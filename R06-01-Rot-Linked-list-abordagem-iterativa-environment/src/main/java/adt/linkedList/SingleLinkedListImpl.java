@@ -28,44 +28,49 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	public T search(T element) {
 	    SingleLinkedListNode aux = this.head;
 	    T key = null;
-	    while(!aux.isNIL() && !element.equals(key)){
-	        aux = aux.next;
-	        key = (T) aux.data;
-        }
+	    if(element != null) {
+			while (!aux.isNIL() && !element.equals(key)) {
+				aux = aux.next;
+				key = (T) aux.data;
+			}
+		}
 	    return key;
 	}
 
 	@Override
 	public void insert(T element) {
-		SingleLinkedListNode auxHead = this.head;
-		if(this.head.isNIL()){
-			SingleLinkedListNode newHead = new SingleLinkedListNode(element, this.head);
-			this.head = newHead;
-		}
-		else{
-			while (!auxHead.next.isNIL()){
-				auxHead = auxHead.next;
+		if(element != null) {
+			SingleLinkedListNode auxHead = this.head;
+			if (this.head.isNIL()) {
+				SingleLinkedListNode newHead = new SingleLinkedListNode(element, this.head);
+				this.head = newHead;
+			} else {
+				while (!auxHead.next.isNIL()) {
+					auxHead = auxHead.next;
+				}
+				SingleLinkedListNode newNode = new SingleLinkedListNode(element, auxHead.next);
+				auxHead.next = newNode;
 			}
-			SingleLinkedListNode newNode = new SingleLinkedListNode(element, auxHead.next);
-			auxHead.next = newNode;
 		}
 	}
 
 	@Override
 	public void remove(T element) {
-        if (this.head.data.equals(element)) {
-            this.head = this.head.next;
-        } else {
-            SingleLinkedListNode aux = this.head;
-            SingleLinkedListNode previous = aux;
-            while (!aux.isNIL() && !aux.data.equals(element)) {
-                previous = aux;
-                aux = aux.next;
-            }
-            if (!aux.isNIL()) {
-                previous.next = aux.next;
-            }
-        }
+		if(element != null){
+			if (this.head.data.equals(element)) {
+				this.head = this.head.next;
+			} else {
+				SingleLinkedListNode aux = this.head;
+				SingleLinkedListNode previous = aux;
+				while (!aux.isNIL() && !aux.data.equals(element)) {
+					previous = aux;
+					aux = aux.next;
+				}
+				if (!aux.isNIL()) {
+					previous.next = aux.next;
+				}
+			}
+		}
     }
 
 	@Override

@@ -66,6 +66,9 @@ public class StudentLinkedListTest {
 		lista1.remove(1);
 		Assert.assertEquals(1, lista1.size());
 		Assert.assertArrayEquals(new Integer[] {3}, lista1.toArray());
+		lista1.remove(3);
+		Assert.assertEquals(0, lista1.size());
+		Assert.assertArrayEquals(new Integer[] {}, lista1.toArray());
 
 	}
 
