@@ -65,15 +65,16 @@ public class StudentLinkedListTest {
 	@Test
 	public void testRemove() {
 		Assert.assertEquals(3, lista1.size());
+		lista1.remove(3);
 		lista1.remove(2);
 		lista1.remove(1);
-		Assert.assertEquals(1, lista1.size());
+		Assert.assertEquals(0, lista1.size());
 
 	}
 
 	@Test
 	public void testToArray() {
-		System.out.println(Arrays.toString(lista1.toArray()));
+
 		Assert.assertArrayEquals(new Integer[] {}, lista2.toArray());
 		Assert.assertArrayEquals(new Integer[] { 3, 2, 1 }, lista1.toArray());
 	}

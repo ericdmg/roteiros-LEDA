@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="adt.linkedList.StudentDoubleLinkedListTest" time="0.009" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="adt.linkedList.StudentDoubleLinkedListTest" time="0.045" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9-LTS"/>
@@ -62,15 +62,15 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testRemoveEAdiciona" time="0.006"/>
+  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testRemoveEAdiciona" time="0.042"/>
   <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testInsertFirstVazio" time="0"/>
   <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testRemoveFirst" time="0"/>
   <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testInsertFirst" time="0"/>
   <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testRemoveLast" time="0"/>
-  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testToArray" time="0"/>
-  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testSize" time="0"/>
-  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testInsert" time="0"/>
-  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testIsEmpty" time="0.003"/>
+  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testToArray" time="0.001"/>
+  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testSize" time="0.001"/>
+  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testInsert" time="0.001"/>
+  <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testIsEmpty" time="0"/>
   <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testRemove" time="0"/>
   <testcase classname="adt.linkedList.StudentDoubleLinkedListTest" name="testSearch" time="0"/>
 </testsuite>
