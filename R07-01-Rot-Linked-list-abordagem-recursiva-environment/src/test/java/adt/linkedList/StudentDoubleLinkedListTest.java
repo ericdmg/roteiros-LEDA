@@ -71,7 +71,6 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
 		((DoubleLinkedList<Integer>) lista1).removeLast();
 		Assert.assertArrayEquals(new Integer[] { 3, 2 }, lista1.toArray());
 		((DoubleLinkedList<Integer>) lista1).removeLast();
-		System.out.println(Arrays.toString(lista1.toArray()));
 		Assert.assertArrayEquals(new Integer[] { 3 }, lista1.toArray());
 		((DoubleLinkedList<Integer>) lista1).removeLast();
 		Assert.assertArrayEquals(new Integer[] { }, lista1.toArray());

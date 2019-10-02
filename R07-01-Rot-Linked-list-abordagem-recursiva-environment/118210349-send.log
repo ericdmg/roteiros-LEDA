@@ -97,3 +97,23 @@
   <level>FINE</level>
   <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 192.168.0.2 at 28-09-2019 12*58*20</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-28T13:01:19.784-0300</date>
+  <logger>ERIC DIEGO MATOZO GONCALVES</logger>
+  <level>FINE</level>
+  <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 192.168.0.2 at 28-09-2019 13*01*19</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-28T13:02:47.434-0300</date>
+  <logger>ERIC DIEGO MATOZO GONCALVES</logger>
+  <level>FINE</level>
+  <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 192.168.0.2 at 28-09-2019 13*02*47</message>
+</record>

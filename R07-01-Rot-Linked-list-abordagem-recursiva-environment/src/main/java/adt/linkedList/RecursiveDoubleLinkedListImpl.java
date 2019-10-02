@@ -11,12 +11,13 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 
 	@Override
 	public void insert(T element) {
-		inserir(element, new RecursiveDoubleLinkedListImpl<T>());
+		if (element != null) {
+			inserir(element, new RecursiveDoubleLinkedListImpl<T>());
+		}
 
 	}
 
 	private void inserir(T element, RecursiveDoubleLinkedListImpl<T> previous) {
-		if (element != null) {
 			if (isEmpty()) {
 				setData(element);
 				setNext(new RecursiveDoubleLinkedListImpl<>());
@@ -26,7 +27,7 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 			else ((RecursiveDoubleLinkedListImpl<T>)  getNext()).inserir(element,this);
 
 		}
-	}
+
 
 	@Override
 	public void insertFirst(T element) {
