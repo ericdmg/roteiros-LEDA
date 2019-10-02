@@ -86,41 +86,20 @@ public class HashtableClosedAddressImpl<T> extends
 	@Override
 	public void remove(T element) {
 		if (element != null && !isEmpty()) {
-			int index = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
-			LinkedList<T> lista = ((LinkedList<T>) this.table[index]);
-			if (lista != null) {
-				boolean achou = false;
-				int i = 0;
-				while (!achou && i < lista.size()) {
-					if (lista.get(i).equals(element)) {
-						lista.remove(i);
-						achou = true;
-						this.elements--;
-					}
-					i++;
-				}
-				this.table[index] = lista;
+			int index = indexOf(element);
+			if(index != -1){
+				((LinkedList<T>) this.table[index]).remove(element);
+				this.elements--;
+			}
 			}
 		}
-	}
+
 
 	@Override
 	public T search(T element) {
 		T retorno = null;
-		if (element != null && !isEmpty()) {
-			int index = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
-			LinkedList<T> lista = ((LinkedList<T>) this.table[index]);
-			boolean achou = false;
-			if (lista != null) {
-				int i = 0;
-				while (!achou && i < lista.size()) {
-					if (lista.get(i).equals(element)) {
-						achou = true;
-						retorno = element;
-					}
-					i++;
-				}
-			}
+		if(indexOf(element) != -1){
+			retorno = element;
 		}
 		return retorno;
 	}
