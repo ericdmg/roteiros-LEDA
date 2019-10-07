@@ -19,8 +19,7 @@ public class StackImpl<T> implements Stack<T> {
 		}
 
 		else {
-			this.top--;
-			retorno =  this.array[top + 1];
+			retorno =  this.array[top];
 		}
 		return retorno;
 	}
@@ -67,5 +66,16 @@ public class StackImpl<T> implements Stack<T> {
 		}
 		return retorno;
 	}
+
+	public T searchByInsertionOrder(int order){
+		T retorno = null;
+		for(int i = 0; i < this.array.length;i++){
+			if (i == order-1){
+				retorno = this.array[i];
+			}
+		}
+		return retorno;
+	}
+
 
 }

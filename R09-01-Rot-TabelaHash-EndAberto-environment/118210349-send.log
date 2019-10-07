@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-07T16:20:49.332-0300</date>
+  <logger>ERIC DIEGO MATOZO GONCALVES</logger>
+  <level>FINE</level>
+  <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 150.165.42.182 at 07-10-2019 16*20*49</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-07T18:37:13.638-0300</date>
+  <logger>ERIC DIEGO MATOZO GONCALVES</logger>
+  <level>FINE</level>
+  <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 192.168.100.3 at 07-10-2019 18*37*13</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-07T20:24:18.516-0300</date>
+  <logger>ERIC DIEGO MATOZO GONCALVES</logger>
+  <level>FINE</level>
+  <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 192.168.100.3 at 07-10-2019 20*24*18</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-07T20:45:36.997-0300</date>
+  <logger>ERIC DIEGO MATOZO GONCALVES</logger>
+  <level>FINE</level>
+  <message>File 118210349-ERIC DIEGO MATOZO GONCALVES.zip was received. It was sent by ERIC DIEGO MATOZO GONCALVES from IP 192.168.100.3 at 07-10-2019 20*45*36</message>
+</record>

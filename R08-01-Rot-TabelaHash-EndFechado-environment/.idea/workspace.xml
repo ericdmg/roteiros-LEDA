@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc14181c-c502-4f6c-ae8f-fcf65fc9cf69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/stack/StackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/target/classes/adt/stack/StackImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/target/classes/adt/stack/StackImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/test-classes/adt/linkedList/StudentDoubleLinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/test-classes/adt/linkedList/StudentDoubleLinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07-01-Rot-Linked-list-abordagem-recursiva-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R07-01-Rot-Linked-list-abordagem-recursiva-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210349-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/118210349.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118210349.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/hashtable/closed/HashtableClosedAddressImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/hashtable/closed/HashtableClosedAddressImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+            <state relative-caret-position="394">
+              <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -76,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/closed/StudentTestHashtableClosedAddressDivisionMethod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1026">
@@ -232,8 +246,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.rodar maven">
-    <configuration name="StudentTestHashtableClosedAddressDivisionMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testSearch">
+    <configuration name="StudentTestHashtableClosedAddressDivisionMethod.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
         <pattern>
@@ -243,7 +257,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.hashtable.closed" />
       <option name="MAIN_CLASS_NAME" value="adt.hashtable.closed.StudentTestHashtableClosedAddressDivisionMethod" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,22 +294,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.hashtable.closed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.hashtable.closed" />
-      <option name="MAIN_CLASS_NAME" value="adt.hashtable.closed.StudentTestHashtableClosedAddressMultiplicationMethod" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -306,6 +305,22 @@
       <option name="PACKAGE_NAME" value="adt.hashtable.closed" />
       <option name="MAIN_CLASS_NAME" value="adt.hashtable.closed.StudentTestHashtableClosedAddressMultiplicationMethod" />
       <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.hashtable.closed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.hashtable.closed" />
+      <option name="MAIN_CLASS_NAME" value="adt.hashtable.closed.StudentTestHashtableClosedAddressMultiplicationMethod" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,20 +353,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testRemove" />
-      <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testInsert" />
       <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod" />
-      <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod" />
       <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod.testSearch" />
+      <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod.testRemove" />
+      <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testRemove" />
+      <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testSearch" />
       <item itemvalue="Maven.rodar maven" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod" />
-        <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod" />
-        <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod.testSearch" />
-        <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testInsert" />
+        <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testSearch" />
         <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod.testRemove" />
+        <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod.testSearch" />
+        <item itemvalue="JUnit.StudentTestHashtableClosedAddressDivisionMethod.testRemove" />
+        <item itemvalue="JUnit.StudentTestHashtableClosedAddressMultiplicationMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -369,50 +384,53 @@
       <workItem from="1569892569148" duration="7770000" />
       <workItem from="1569950362804" duration="7452000" />
       <workItem from="1570038231114" duration="843000" />
-      <workItem from="1570039181053" duration="372000" />
+      <workItem from="1570039181053" duration="1859000" />
+      <workItem from="1570291340746" duration="814000" />
+      <workItem from="1570484785874" duration="257000" />
+      <workItem from="1570489816308" duration="1189000" />
+      <workItem from="1570491807074" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod_testSearch - 2019.10.01 at 23h 56m 37s.xml">
-      <configuration name="StudentTestHashtableClosedAddressDivisionMethod.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod_testSearch - 2019.10.01 at 23h 56m 41s.xml">
-      <configuration name="StudentTestHashtableClosedAddressDivisionMethod.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod - 2019.10.01 at 23h 56m 51s.xml">
-      <configuration name="StudentTestHashtableClosedAddressDivisionMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod - 2019.10.01 at 23h 56m 56s.xml">
-      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod - 2019.10.02 at 00h 05m 48s.xml">
-      <configuration name="StudentTestHashtableClosedAddressDivisionMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod - 2019.10.02 at 00h 05m 54s.xml">
-      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod - 2019.10.02 at 14h 56m 22s.xml">
-      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod - 2019.10.02 at 14h 56m 26s.xml">
-      <configuration name="StudentTestHashtableClosedAddressDivisionMethod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTestHashtableClosedAddressDivisionMethod - 2019.10.02 at 15h 01m 10s.xml">
       <configuration name="StudentTestHashtableClosedAddressDivisionMethod" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod - 2019.10.02 at 15h 01m 21s.xml">
       <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod - 2019.10.02 at 15h 05m 58s.xml">
+      <configuration name="StudentTestHashtableClosedAddressDivisionMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod - 2019.10.02 at 15h 06m 03s.xml">
+      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod - 2019.10.02 at 15h 11m 14s.xml">
+      <configuration name="StudentTestHashtableClosedAddressDivisionMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod - 2019.10.02 at 15h 11m 19s.xml">
+      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod_testRemove - 2019.10.02 at 15h 13m 56s.xml">
+      <configuration name="StudentTestHashtableClosedAddressDivisionMethod.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressDivisionMethod_testSearch - 2019.10.02 at 15h 13m 59s.xml">
+      <configuration name="StudentTestHashtableClosedAddressDivisionMethod.testSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod_testRemove - 2019.10.02 at 15h 14m 17s.xml">
+      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableClosedAddressMultiplicationMethod_testSearch - 2019.10.02 at 15h 14m 20s.xml">
+      <configuration name="StudentTestHashtableClosedAddressMultiplicationMethod.testSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18860000" />
+    <option name="totallyTimeSpent" value="22855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28697044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -545,6 +556,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/closed/StudentTestHashtableClosedAddressDivisionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/closed/StudentTestHashtableClosedAddressMultiplicationMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
@@ -552,17 +570,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        <state relative-caret-position="432">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/closed/StudentTestHashtableClosedAddressDivisionMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="394">
+          <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
         </state>
       </provider>
     </entry>

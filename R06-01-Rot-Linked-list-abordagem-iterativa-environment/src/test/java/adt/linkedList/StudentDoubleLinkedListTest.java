@@ -19,7 +19,6 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
 		lista1.insert(3);
 		lista1.insert(2);
 		lista1.insert(1);
-
 		// Lista com 1 elemento.
 		lista3.insert(1);
 	}
@@ -39,6 +38,11 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
 		Assert.assertArrayEquals(new Integer[] { 4, 3, 2, 1 }, lista1.toArray());
 	}
 
+	@Test
+	public void testFirstIndex() {
+		((DoubleLinkedList<Integer>) lista1).insertFirst(4);
+		Assert.assertArrayEquals(new Integer[] { 4, 3, 2, 1 }, lista1.toArray());
+	}
 	@Test
 	public void testInsertFirstVazio() {
 		((DoubleLinkedList<Integer>) lista2).insertFirst(4);

@@ -9,6 +9,55 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements 
       this.last = (DoubleLinkedListNode<T>) head;
    }
 
+
+   public int firstIndex(T element){
+      int index = 0;
+      DoubleLinkedListNode auxHead = (DoubleLinkedListNode<T>) this.head;
+      boolean achou = false;
+      while(auxHead.getNext() != null && !achou){
+         if(auxHead.data.equals(element)){
+            achou = true;
+         }
+         else{
+            auxHead = (DoubleLinkedListNode<T>) auxHead.next;
+            index++;
+         }
+      }
+      return index;
+   }
+
+   public int lastIndex(T element){
+      int index = 0;
+      int lastIndex = 0;
+      DoubleLinkedListNode auxHead = (DoubleLinkedListNode<T>) this.head;
+      while(auxHead.getNext() != null){
+         if(auxHead.data.equals(element)){
+            lastIndex = index;
+         }
+            auxHead = (DoubleLinkedListNode<T>) auxHead.next;
+            index++;
+
+      }
+      return lastIndex;
+   }
+
+
+
+   public void removeByIndex(int index){
+      int i = 0;
+      DoubleLinkedListNode auxHead = (DoubleLinkedListNode<T>) this.head;
+      boolean achou = false;
+      while(auxHead.getNext() != null && !achou){
+         if(i == index){
+            remove((T) auxHead.data);
+            achou = true;
+         }
+         else{
+            auxHead = (DoubleLinkedListNode<T>) auxHead.next;
+            i++;
+         }
+      }
+   }
    @Override
    public void insertFirst(T element) {
       if(element != null){
@@ -71,4 +120,19 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements 
       this.last = last;
    }
 
+   public void reverseList(){
+      DoubleLinkedListNode<T> prev = new DoubleLinkedListNode<T>();
+      DoubleLinkedListNode<T> atual =((DoubleLinkedListNode<T>) this.head);
+      DoubleLinkedListNode<T> next = new DoubleLinkedListNode<T>();
+      while(!atual.isNIL()){
+         next = ((DoubleLinkedListNode<T>) atual.next);
+         atual.next = prev;
+         prev = atual;
+         atual = next;
+      }
+      this.head = prev;
+   }
+
 }
+
+
