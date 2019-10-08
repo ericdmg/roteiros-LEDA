@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32a38568-63cb-4a09-919c-dae30740c411" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java" afterDir="false" />
-    </list>
+    <list default="true" id="32a38568-63cb-4a09-919c-dae30740c411" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="148">
+              <caret line="55" column="48" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -45,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -72,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java" />
       </list>
     </option>
   </component>
@@ -328,17 +324,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570484057283</updated>
-      <workItem from="1570484063840" duration="9597000" />
+      <workItem from="1570484063840" duration="10275000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTestHashtableOpenAddressLinearProbing_testInsert - 2019.10.07 at 20h 57m 16s.xml">
-      <configuration name="StudentTestHashtableOpenAddressLinearProbing.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressLinearProbing_testInsert - 2019.10.07 at 20h 57m 45s.xml">
-      <configuration name="StudentTestHashtableOpenAddressLinearProbing.testInsert" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTestHashtableOpenAddressLinearProbing_testInsert - 2019.10.07 at 20h 58m 55s.xml">
       <configuration name="StudentTestHashtableOpenAddressLinearProbing.testInsert" configurationId="JUnit" />
     </history-entry>
@@ -363,12 +353,18 @@
     <history-entry file="StudentTestHashtableOpenAddressLinearProbing_testInsert - 2019.10.07 at 21h 13m 37s.xml">
       <configuration name="StudentTestHashtableOpenAddressLinearProbing.testInsert" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 21h 14m 26s.xml">
+      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing_testInsert - 2019.10.07 at 21h 15m 37s.xml">
+      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing.testInsert" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9597000" />
+    <option name="totallyTimeSpent" value="10275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -376,7 +372,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24940048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -386,7 +382,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,15 +557,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="148">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>
