@@ -18,19 +18,15 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 		if(isFull()){
 			throw new HashtableOverflowException();
 		}
-		else if (element != null) {
+		else if (element != null && indexOf(element) == -1) {
 			int i = 0;
 			boolean inseriu = false;
-			boolean duplicado = false;
-			while (i < capacity() && !inseriu && !duplicado) {
+			while (i < capacity() && !inseriu) {
 				int index = ((HashFunctionLinearProbing<T>) getHashFunction()).hash(element, i);
 				if (this.table[index] == null || this.table[index] instanceof DELETED) {
 					this.table[index] = element;
 					this.elements++;
 					inseriu = true;
-				}
-				else if(this.table[index].equals(element)){
-					duplicado = true;
 				}
 				else {
 					i++;

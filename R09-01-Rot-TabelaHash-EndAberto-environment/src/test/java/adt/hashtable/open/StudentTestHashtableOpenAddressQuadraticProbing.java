@@ -49,6 +49,11 @@ public class StudentTestHashtableOpenAddressQuadraticProbing {
 		assertEquals(4, table1.getCOLLISIONS());
 		assertEquals(9, table1.indexOf(new HashtableElement(21)));
 
+		table1.insert(new HashtableElement(21));//elemento repetido
+													// nada deve ser feito
+		assertEquals(8, table1.size());
+		assertEquals(4, table1.getCOLLISIONS());
+
 	}
 
 	@Test

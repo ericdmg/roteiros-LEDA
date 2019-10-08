@@ -50,10 +50,21 @@ public class StudentTestHashtableOpenAddressLinearProbing {
 		assertEquals(6, table1.indexOf(new HashtableElement(12)));
 		assertEquals(4, table1.getCOLLISIONS());
 
+		table1.insert(new HashtableElement(12));//elemento repetido
+													// nada deve ser feito
+		assertEquals(7, table1.size());
+		assertEquals(4, table1.getCOLLISIONS());
+
 		table2.insert(new HashtableElement(14)); // nao produz colisao. coloca
 													// no slot indexado com 4
 		assertEquals(4, table2.indexOf(new HashtableElement(14)));
 		assertEquals(0, table2.getCOLLISIONS());
+
+		table1.insert(new HashtableElement(14));//elemento repetido
+													// nada deve ser feito
+		assertEquals(1, table2.size());
+		assertEquals(0, table2.getCOLLISIONS());
+
 
 	}
 

@@ -18,19 +18,15 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 		if(isFull()){
 			throw new HashtableOverflowException();
 		}
-		else if (element != null) {
+		else if (element != null && indexOf(element) == -1) {
 			int i = 0;
 			boolean inseriu = false;
-			boolean duplicado = false;
-			while (i < this.table.length && !inseriu && !duplicado) {
+			while (i < capacity() && !inseriu) {
 				int index = ((HashFunctionQuadraticProbing<T>) getHashFunction()).hash(element, i);
 				if (this.table[index] == null || this.table[index] instanceof DELETED) {
 					this.table[index] = element;
 					this.elements++;
 					inseriu = true;
-				}
-				else if(this.table[index].equals(element)){
-					duplicado = true;
 				}
 				else {
 					i++;
