@@ -66,7 +66,7 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 			boolean achou = false;
 			while (i < capacity() && !achou) {
 				int index = ((HashFunctionLinearProbing<T>) getHashFunction()).hash(element, i);
-				if (this.table[index] != null || this.deletedElement.equals(this.table[index])) {
+				if (this.table[index] != null && !this.deletedElement.equals(this.table[index])) {
 					if (this.table[index].equals(element)) {
 						retorno = index;
 						achou = true;

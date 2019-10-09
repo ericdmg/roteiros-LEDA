@@ -76,6 +76,7 @@ public class StudentTestHashtableOpenAddressLinearProbing {
 		table1.remove(new HashtableElement(5)); // elemento existente
 		assertEquals(3, table1.size());
 		assertNull(table1.search(new HashtableElement(5)));
+		assertEquals(-1,table1.indexOf(new HashtableElement(5)));
 
 	}
 
