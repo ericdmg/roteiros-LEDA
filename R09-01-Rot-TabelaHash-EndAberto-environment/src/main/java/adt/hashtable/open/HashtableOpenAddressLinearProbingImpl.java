@@ -23,7 +23,7 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 			boolean inseriu = false;
 			while (i < capacity() && !inseriu) {
 				int index = ((HashFunctionLinearProbing<T>) getHashFunction()).hash(element, i);
-				if (this.table[index] == null || this.table[index] instanceof DELETED) {
+				if (this.table[index] == null || this.deletedElement.equals(this.table[index])) {
 					this.table[index] = element;
 					this.elements++;
 					inseriu = true;
@@ -64,9 +64,9 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 		if (element != null && !isEmpty()) {
 			int i = 0;
 			boolean achou = false;
-			while (i < this.table.length && !achou) {
+			while (i < capacity() && !achou) {
 				int index = ((HashFunctionLinearProbing<T>) getHashFunction()).hash(element, i);
-				if (this.table[index] != null || (this.table[index] instanceof DELETED)) {
+				if (this.table[index] != null || this.deletedElement.equals(this.table[index])) {
 					if (this.table[index].equals(element)) {
 						retorno = index;
 						achou = true;
