@@ -77,5 +77,36 @@ public class StackImpl<T> implements Stack<T> {
 		return retorno;
 	}
 
+	public boolean checkInput(String entrada) throws StackUnderflowException, StackOverflowException {
+		boolean completo = true;
+		String parentese = "";
+		for (int i = 0; i < entrada.length(); i++) {
+			String complementoParentese = "";
+			parentese = "" + entrada.charAt(i);
+			if(parentese.equals("(")) {
+
+				push((T) parentese);
+			}
+			else {
+				if(i == 0){
+					completo = false;
+				}
+				else complementoParentese = (String) pop();
+
+				if(parentese.equals(")") && !complementoParentese.equals("(")){
+					completo = false;
+				}
+			}
+		}
+		if(parentese.equals("(")){
+			completo = false;
+		}
+		else if(!isEmpty()){
+			completo = false;
+		}
+
+		return completo;
+	}
+
 
 }

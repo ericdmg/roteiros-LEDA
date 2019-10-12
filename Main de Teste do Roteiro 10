@@ -1,0 +1,99 @@
+package adt.linkedList.set;
+
+import java.util.Arrays;
+
+public class MainTesteSet {
+    public static void main(String[] args) {
+        SetLinkedList setList1 = new SetLinkedListImpl();
+        setList1.insert(1);
+        setList1.insert(1);
+        setList1.insert(2);
+        setList1.insert(1);
+        setList1.insert(3);
+        setList1.insert(1);
+        System.out.println("-------------------------------------------------------------------------" + "\n" + "\n" + "=== REMOVENDO DUPLICATAS ===");
+        System.out.println("Como a set lista 1 era: " + Arrays.toString(setList1.toArray()));
+        setList1.removeDuplicates();
+        System.out.println("Como a set lista 1 após remover duplicatas: " + Arrays.toString(setList1.toArray()) + "\n");
+
+        SetLinkedList setList2 = new SetLinkedListImpl();
+        setList2.insert(4);
+        setList2.insert(4);
+        setList2.insert(5);
+        setList2.insert(4);
+        setList2.insert(6);
+        setList2.insert(4);
+        System.out.println("Como a set lista 2 era: " + Arrays.toString(setList2.toArray()));
+        setList2.removeDuplicates();
+        System.out.println("Como a set lista 2 após remover duplicatas: " + Arrays.toString(setList2.toArray()) + "\n");
+
+        System.out.println("-------------------------------------------------------------------------" + "\n" + "\n" + "=== UNIÃO DE LISTAS ===");
+        System.out.println("A união de ambas as listas deveria ser: [1, 2, 3, 4, 5, 6]");
+        System.out.println("A união de ambas as listas é: " + Arrays.toString(setList1.union(setList2).toArray()) + "\n");
+
+        System.out.println("-------------------------------------------------------------------------" + "\n" + "\n" + "=== UNINDO AS LISTAS COM DUPLICATAS E AS REMOVENDO DEPOIS ===");
+        setList1.insert(1);
+        setList1.insert(1);
+        setList1.insert(2);
+        setList1.insert(1);
+        setList1.insert(3);
+        setList1.insert(1);
+
+        setList2.insert(4);
+        setList2.insert(4);
+        setList2.insert(5);
+        setList2.insert(4);
+        setList2.insert(6);
+        setList2.insert(4);
+
+
+        System.out.println("A união de ambas as listas é (antes de remover duplicatas): " + Arrays.toString(setList1.union(setList2).toArray()));
+        SetLinkedList uniaoLista1Lista = setList1.union(setList2);
+        uniaoLista1Lista.removeDuplicates();
+        System.out.println("A união de ambas as listas deveria ser (sem duplicatas): [1, 2, 3, 4, 5, 6]");
+        System.out.println("A união de ambas as listas é: " + Arrays.toString(uniaoLista1Lista.toArray()) + "\n");
+
+        System.out.println("-------------------------------------------------------------------------" + "\n" + "\n" + "=== INTERSECÇÃO DE LISTAS ===");
+        SetLinkedList interseccaoLista1Lista2 = setList1.intersection(setList2);
+        System.out.println("Como a set lista 1 era: " + Arrays.toString(setList1.toArray()));
+        System.out.println("Como a set lista 2 era: " + Arrays.toString(setList2.toArray()));
+        System.out.println("A intersecção entre elas deveria ser: [] (vazia)");
+        System.out.println("A intersecção entre elas deveria é: " + Arrays.toString(interseccaoLista1Lista2.toArray()));
+
+        SetLinkedList setList3 = new SetLinkedListImpl();
+        setList3.insert(4);
+        setList3.insert(5);
+        setList3.insert(4);
+        setList3.insert(1);
+        setList3.insert(5);
+        setList3.insert(6);
+        setList3.insert(5);
+        setList3.insert(1);
+
+        SetLinkedList setList4 = new SetLinkedListImpl();
+        setList4.insert(3);
+        setList4.insert(10);
+        setList4.insert(1);
+        setList4.insert(6);
+        setList4.insert(8);
+        setList4.insert(8);
+        setList4.insert(7);
+        setList4.insert(3);
+
+        SetLinkedList interseccaoLista3Lista4 = setList3.intersection(setList4);
+        System.out.println("\n" + "Como a set lista 3 era: " + Arrays.toString(setList3.toArray()));
+        System.out.println("Como a set lista 4 era: " + Arrays.toString(setList4.toArray()));
+        System.out.println("A intersecção entre elas deveria ser: [1,6]");
+        System.out.println("A intersecção entre elas deveria é: " + Arrays.toString(interseccaoLista3Lista4.toArray()) + "\n");
+
+        System.out.println("-------------------------------------------------------------------------" + "\n" + "\n" + "=== CONCATENAÇÃO DE LISTAS ===");
+        System.out.println("Como a set lista 1 era: " + Arrays.toString(setList1.toArray()));
+        setList1.concatenate(setList2);
+        System.out.println("Como a set lista 1 ficou: " + Arrays.toString(setList1.toArray()));
+        setList1.removeDuplicates();
+        System.out.println("A concatenação de ambas as listas sem duplicatas deveria ser: [1, 2, 3, 4, 5, 6]");
+        System.out.println("A concatenação de ambas as listas sem duplicatas é: " + Arrays.toString(setList1.toArray()));
+
+    }
+}
+
