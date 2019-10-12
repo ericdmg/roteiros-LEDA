@@ -40,9 +40,9 @@ public class SetLinkedListImpl<T> extends SingleLinkedListImpl<T> implements Set
             for (T elemento : outraLista) {
                 listaUniao.insert(elemento);
             }
-            listaUniao.removeDuplicates();
         }
-		return listaUniao;
+        listaUniao.removeDuplicates();
+        return listaUniao;
 	}
 
 	@Override
@@ -58,9 +58,9 @@ public class SetLinkedListImpl<T> extends SingleLinkedListImpl<T> implements Set
                     }
                 }
             }
-            listaInterseccao.removeDuplicates();
         }
-		return listaInterseccao;
+        listaInterseccao.removeDuplicates();
+        return listaInterseccao;
 	}
 
 	@Override
