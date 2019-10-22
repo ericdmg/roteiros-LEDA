@@ -94,4 +94,21 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 		this.head = head;
 	}
 
+	public void reverseAppend(T element){
+		SingleLinkedListNode<T> prev = new SingleLinkedListNode<>();
+		SingleLinkedListNode<T> current = getHead();
+		SingleLinkedListNode<T> next = current.getNext();
+		while(!current.isNIL()){
+			current.setNext(prev);
+			prev = current;
+			current = next;
+			next = current.getNext();
+		}
+
+		current.setData(element);
+		current.setNext(prev);
+
+		this.head = current;
+	}
+
 }

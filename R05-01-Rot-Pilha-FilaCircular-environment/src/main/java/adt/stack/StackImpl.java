@@ -80,11 +80,11 @@ public class StackImpl<T> implements Stack<T> {
 	public boolean checkInput(String entrada) throws StackUnderflowException, StackOverflowException {
 		boolean completo = true;
 		String parentese = "";
+		int maiorSequencia = 0;
 		for (int i = 0; i < entrada.length(); i++) {
 			String complementoParentese = "";
 			parentese = "" + entrada.charAt(i);
 			if(parentese.equals("(")) {
-
 				push((T) parentese);
 			}
 			else {
@@ -96,6 +96,7 @@ public class StackImpl<T> implements Stack<T> {
 				if(parentese.equals(")") && !complementoParentese.equals("(")){
 					completo = false;
 				}
+				else maiorSequencia++;
 			}
 		}
 		if(parentese.equals("(")){
@@ -104,7 +105,7 @@ public class StackImpl<T> implements Stack<T> {
 		else if(!isEmpty()){
 			completo = false;
 		}
-
+		System.out.println(maiorSequencia);
 		return completo;
 	}
 
