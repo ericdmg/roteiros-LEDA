@@ -16,7 +16,7 @@ public class StudentBSTTest {
 	private BTNode<Integer> NIL = new BTNode<Integer>();
 
 	private void fillTree() {
-		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40 };
+		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40,5 };
 		for (int i : array) {
 			tree.insert(i);
 		}
@@ -101,6 +101,7 @@ public class StudentBSTTest {
 
 		assertEquals(new Integer(0), tree.predecessor(2).getData());
 		assertEquals(new Integer(5), tree.sucessor(2).getData());
+		assertEquals(new Integer(67), tree.sucessor(23).getData());
 	}
 
 	@Test
@@ -109,7 +110,6 @@ public class StudentBSTTest {
 
 		int size = 12;
 		assertEquals(size, tree.size());
-
 		while (!tree.isEmpty()) {
 			tree.remove(tree.getRoot().getData());
 			assertEquals(--size, tree.size());
