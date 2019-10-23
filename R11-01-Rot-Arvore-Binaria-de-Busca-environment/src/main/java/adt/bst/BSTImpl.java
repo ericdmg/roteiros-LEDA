@@ -178,8 +178,6 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
       BSTNode<T> aux = search(element);
       if (aux.isLeaf()) {
          aux.setData(null);
-         aux.setLeft(null);
-         aux.setRight(null);
       } else if ((aux.getLeft().isEmpty() && !aux.getRight().isEmpty())) {
          aux.setData(aux.getRight().getData());
          aux.setLeft(aux.getRight().getLeft());
