@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public class StudentBSTTest {
 
-	private BSTImpl<Integer> tree;
+	private SortComparatorBSTImpl<Integer> tree;
 	private BTNode<Integer> NIL = new BTNode<Integer>();
 
 	private void fillTree() {
@@ -32,7 +32,15 @@ public class StudentBSTTest {
 	@Test
 	public void reverseOrder(){
 		fillTree();
-		System.out.println(Arrays.toString(((SortComparatorBSTImpl) tree).reverseOrder()));
+		System.out.println(Arrays.toString((tree.reverseOrder())));
+	}
+
+	@Test
+	public void sort(){
+		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40 };
+		System.out.println(Arrays.toString(tree.sort(array)));
+		System.out.println(Arrays.toString(array));
+		Arrays.sort(array);
 	}
 	@Test
 	public void testInit() {
