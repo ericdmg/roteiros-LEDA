@@ -26,12 +26,16 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 
 	@Override
 	public T[] sort(T[] array) {
-		this.root = new BSTNode<T>();
-		for (T elemment : array) {
-			insert(elemment);
+		T[] sortedArray = (T[]) new Comparable[size()];
+		if(array != null) {
+			this.root = new BSTNode<T>();
+			for (T elemment : array) {
+				insert(elemment);
+			}
+			sortedArray = order();
 		}
 
-		return order();
+		return sortedArray;
 	}
 
 	@Override
@@ -66,6 +70,15 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 		return (T[]) arrayListReverseOrder.toArray(new Comparable[size()]);
 	}
 
+	private void reverseOrdering(BSTNode<T> node, ArrayList<T> arrayListReverseOrder) {
+		if (!node.isEmpty()) {
+			reverseOrdering(((BSTNode<T>) node.getRight()), arrayListReverseOrder);
+			arrayListReverseOrder.add(node.getData());
+			reverseOrdering(((BSTNode<T>) node.getLeft()), arrayListReverseOrder);
+
+		}
+	}
+
 	@Override
 	public void insert(T element) {
 		if(element != null && search(element).isEmpty()) {
@@ -88,14 +101,7 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 		}
 	}
 
-	private void reverseOrdering(BSTNode<T> node, ArrayList<T> arrayListReverseOrder) {
-		if (!node.isEmpty()) {
-			reverseOrdering(((BSTNode<T>) node.getRight()), arrayListReverseOrder);
-			arrayListReverseOrder.add(node.getData());
-			reverseOrdering(((BSTNode<T>) node.getLeft()), arrayListReverseOrder);
 
-		}
-	}
 
 	public Comparator<T> getComparator() {
 		return comparator;

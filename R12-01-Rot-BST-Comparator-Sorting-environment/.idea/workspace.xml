@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="455f1e07-2a33-4006-94b8-d682ed4c0a06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210349-send.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/118210349.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118210349.zip" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +16,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="301">
+              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding>
-                <element signature="e#2861#2862#0" expanded="true" />
-                <element signature="e#2952#2953#0" expanded="true" />
+                <element signature="e#2974#2975#0" expanded="true" />
+                <element signature="e#3065#3066#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="82" column="43" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="43" />
+            <state relative-caret-position="18">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
             </state>
           </provider>
         </entry>
@@ -46,8 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="166">
+              <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -55,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="1566">
               <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
             </state>
           </provider>
@@ -65,8 +73,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>compareTo</find>
       <find>comp</find>
+      <find>compareTo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,9 +84,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -94,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -251,22 +259,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentBSTTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.bst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.bst" />
-      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="rodar maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -295,15 +287,13 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StudentBSTTest" />
+      <item itemvalue="Maven.rodar maven" />
       <item itemvalue="JUnit.StudentBSTTest.reverseOrder" />
       <item itemvalue="JUnit.StudentBSTTest.sort" />
-      <item itemvalue="JUnit.StudentBSTTest.testSearch" />
-      <item itemvalue="Maven.rodar maven" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentBSTTest" />
-        <item itemvalue="JUnit.StudentBSTTest.testSearch" />
         <item itemvalue="JUnit.StudentBSTTest.sort" />
         <item itemvalue="JUnit.StudentBSTTest.reverseOrder" />
       </list>
@@ -319,58 +309,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571937984120</updated>
-      <workItem from="1571956498741" duration="3384000" />
+      <workItem from="1571956498741" duration="3540000" />
+      <workItem from="1571960541421" duration="625000" />
+      <workItem from="1571965405006" duration="292000" />
+      <workItem from="1571966506146" duration="1313000" />
+      <workItem from="1572045840672" duration="2848000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentBSTTest_reverseOrder - 2019.10.24 at 14h 59m 27s.xml">
+    <history-entry file="StudentBSTTest - 2019.10.24 at 22h 22m 33s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2019.10.24 at 22h 23m 49s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2019.10.24 at 22h 43m 39s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest_reverseOrder - 2019.10.25 at 20h 30m 25s.xml">
       <configuration name="StudentBSTTest.reverseOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_reverseOrder - 2019.10.24 at 19h 57m 17s.xml">
+    <history-entry file="StudentBSTTest_sort - 2019.10.25 at 20h 31m 17s.xml">
+      <configuration name="StudentBSTTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest_sort - 2019.10.25 at 20h 31m 43s.xml">
+      <configuration name="StudentBSTTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest_sort - 2019.10.25 at 20h 32m 14s.xml">
+      <configuration name="StudentBSTTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest_reverseOrder - 2019.10.25 at 22h 21m 16s.xml">
       <configuration name="StudentBSTTest.reverseOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_sort - 2019.10.24 at 19h 57m 36s.xml">
+    <history-entry file="StudentBSTTest_sort - 2019.10.25 at 22h 21m 35s.xml">
       <configuration name="StudentBSTTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_sort - 2019.10.24 at 19h 58m 06s.xml">
+    <history-entry file="StudentBSTTest_sort - 2019.10.25 at 22h 22m 01s.xml">
       <configuration name="StudentBSTTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest - 2019.10.24 at 20h 00m 22s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest_testSearch - 2019.10.24 at 20h 10m 08s.xml">
-      <configuration name="StudentBSTTest.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest_testSearch - 2019.10.24 at 20h 13m 20s.xml">
-      <configuration name="StudentBSTTest.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest - 2019.10.24 at 20h 13m 24s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest - 2019.10.24 at 20h 13m 26s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest - 2019.10.24 at 20h 25m 28s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3384000" />
+    <option name="totallyTimeSpent" value="8618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25419664" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2733813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
@@ -382,8 +374,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32888147" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,6 +384,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -428,20 +422,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java</url>
-          <line>45</line>
-          <properties class="adt.bst.extended.SortComparatorBSTImpl" method="recursiveSearch">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java</url>
           <line>163</line>
           <properties class="adt.bst.StudentBSTTest" method="testSearch">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -475,35 +467,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="1566">
           <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#2861#2862#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="82" column="43" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="43" />
+        <state relative-caret-position="18">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3065#3066#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

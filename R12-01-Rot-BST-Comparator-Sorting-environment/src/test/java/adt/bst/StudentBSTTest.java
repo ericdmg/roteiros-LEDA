@@ -40,7 +40,7 @@ public class StudentBSTTest {
 		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40 };
 		System.out.println(Arrays.toString(tree.sort(array)));
 		System.out.println(Arrays.toString(array));
-		Arrays.sort(array);
+
 	}
 	@Test
 	public void testInit() {
