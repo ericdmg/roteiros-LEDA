@@ -1,0 +1,35 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f2287ffda41, pid=23813, tid=23817
+#
+# JRE version: Java(TM) SE Runtime Environment (11.0.2+9) (build 11.0.2+9-LTS)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (11.0.2+9-LTS, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# j  adt.heap.HeapImpl.heapify(I)V+153
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P" (or dumping to /home/ericdmg/Área de Trabalho/roteiros-LEDA/R13-01-Rot-Heap-environment (1)/core.23813)
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:38279,suspend=y,server=n -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/ericdmg/ideaIU-2019.1.1/idea-IU-191.6707.61/lib/rt/debugger-agent.jar -Dfile.encoding=UTF-8 com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 adt.heap.StudentMaxHeapTest,testInsert
+
+Host: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, 4 cores, 7G, Ubuntu 18.04.2 LTS
+Time: Fri Nov  1 23:53:08 2019 -03 elapsed time: 1289 seconds (0d 0h 21m 29s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f22a0013800):  JavaThread "main" [_thread_in_Java, id=23817, stack(0x00007f22a706c000,0x00007f22a716d000)]
+
+Stack: [0x00007f22a706c000,0x00007f22a716d000],  sp=0x00007f22a716a858,  free space=1018k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+j  adt.heap.HeapImpl.heapify(I)V+153
+j  adt.heap.HeapImpl.heapify(I)V+143
+j  adt.heap.HeapImpl.insert(Ljava/lang/Comparable;)V+65
+j  adt.heap.StudentMaxHeapTest.testInsert()V+201
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x886899]
