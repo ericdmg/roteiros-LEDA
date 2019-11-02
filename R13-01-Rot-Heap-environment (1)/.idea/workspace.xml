@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="571ac33a-77c8-4932-a5e3-ee7fc5dd8fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submission.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/118210349-send.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/Recursao.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/Revisao de Java (JUnit).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/Revisao de Java (Recursividade).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/minhasSolucoesRecursao/MainRecursao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/ExemplosRecursao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/GeradorSequencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/MetodosRecursivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/solucao/recursao/MetodosRecursivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/solucao/vetor/TesteVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/solucao/vetor/Vetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/vetor/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/vetor/TestarVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/vetor/Vetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/submission.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/118210349.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/submission-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/walkmod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210349-send.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="118" column="6" lean-forward="true" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+            <state relative-caret-position="18">
+              <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
               <folding>
                 <element signature="e#1251#1281#0" expanded="true" />
                 <element signature="e#1504#1505#0" expanded="true" />
@@ -101,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1656">
@@ -110,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-949">
+            <state relative-caret-position="18">
               <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
@@ -410,26 +372,11 @@
       <option name="presentableId" value="Default" />
       <updated>1572633704108</updated>
       <workItem from="1572633706818" duration="19837000" />
-      <workItem from="1572694844245" duration="6691000" />
+      <workItem from="1572694844245" duration="7378000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMaxHeapTest - 2019.11.02 at 10h 02m 06s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMinHeapTest - 2019.11.02 at 10h 02m 10s.xml">
-      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest_testSort - 2019.11.02 at 10h 03m 27s.xml">
-      <configuration name="StudentMaxHeapTest.testSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest_testRemove - 2019.11.02 at 10h 03m 36s.xml">
-      <configuration name="StudentMaxHeapTest.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest_testRemove - 2019.11.02 at 10h 03m 55s.xml">
-      <configuration name="StudentMaxHeapTest.testRemove" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentMaxHeapTest_testRemove - 2019.11.02 at 10h 04m 07s.xml">
       <configuration name="StudentMaxHeapTest.testRemove" configurationId="JUnit" />
     </history-entry>
@@ -445,13 +392,27 @@
     <history-entry file="StudentMaxHeapTest - 2019.11.02 at 10h 23m 29s.xml">
       <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentMaxHeapTest - 2019.11.02 at 10h 46m 56s.xml">
+      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMaxHeapTest - 2019.11.02 at 10h 47m 28s.xml">
+      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMaxHeapTest - 2019.11.02 at 10h 47m 41s.xml">
+      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMaxHeapTest - 2019.11.02 at 10h 47m 48s.xml">
+      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMinHeapTest - 2019.11.02 at 10h 47m 54s.xml">
+      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26528000" />
+    <option name="totallyTimeSpent" value="27215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -546,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-949">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -562,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="118" column="6" lean-forward="true" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+        <state relative-caret-position="18">
+          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
           <folding>
             <element signature="e#1251#1281#0" expanded="true" />
             <element signature="e#1504#1505#0" expanded="true" />
@@ -590,6 +544,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="101" column="34" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
