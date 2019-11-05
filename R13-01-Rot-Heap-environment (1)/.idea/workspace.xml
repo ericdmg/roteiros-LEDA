@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="571ac33a-77c8-4932-a5e3-ee7fc5dd8fdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210349-send.log" afterDir="false" />
-    </list>
+    <list default="true" id="571ac33a-77c8-4932-a5e3-ee7fc5dd8fdb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +18,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="1800">
               <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
               <folding>
-                <element signature="e#1251#1281#0" expanded="true" />
                 <element signature="e#1504#1505#0" expanded="true" />
                 <element signature="e#1535#1536#0" expanded="true" />
                 <element signature="e#1693#1694#0" expanded="true" />
@@ -32,14 +29,6 @@
                 <element signature="e#1917#1918#0" expanded="true" />
                 <element signature="e#1961#1962#0" expanded="true" />
                 <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#5535#5536#0" expanded="true" />
-                <element signature="e#5564#5565#0" expanded="true" />
-                <element signature="e#5607#5608#0" expanded="true" />
-                <element signature="e#5637#5638#0" expanded="true" />
-                <element signature="e#5695#5696#0" expanded="true" />
-                <element signature="e#5736#5737#0" expanded="true" />
-                <element signature="e#5763#5764#0" expanded="true" />
-                <element signature="e#5787#5788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="792">
               <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
             </state>
           </provider>
@@ -124,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -202,7 +191,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -345,11 +334,11 @@
     <list>
       <item itemvalue="JUnit.StudentMaxHeapTest.testInsert" />
       <item itemvalue="JUnit.StudentMinHeapTest.testSort" />
-      <item itemvalue="Maven.rodar maven" />
       <item itemvalue="JUnit.StudentMaxHeapTest.testSort" />
       <item itemvalue="JUnit.StudentMaxHeapTest" />
       <item itemvalue="JUnit.StudentMinHeapTest" />
       <item itemvalue="JUnit.StudentMaxHeapTest.testRemove" />
+      <item itemvalue="Maven.rodar maven" />
     </list>
     <recent_temporary>
       <list>
@@ -373,6 +362,7 @@
       <updated>1572633704108</updated>
       <workItem from="1572633706818" duration="19837000" />
       <workItem from="1572694844245" duration="7378000" />
+      <workItem from="1572901687685" duration="1134000" />
     </task>
     <servers />
   </component>
@@ -409,12 +399,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27215000" />
+    <option name="totallyTimeSpent" value="28349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25819343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,26 +490,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="1800">
           <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
           <folding>
-            <element signature="e#1251#1281#0" expanded="true" />
             <element signature="e#1504#1505#0" expanded="true" />
             <element signature="e#1535#1536#0" expanded="true" />
             <element signature="e#1693#1694#0" expanded="true" />
@@ -528,15 +503,21 @@
             <element signature="e#1917#1918#0" expanded="true" />
             <element signature="e#1961#1962#0" expanded="true" />
             <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#5535#5536#0" expanded="true" />
-            <element signature="e#5564#5565#0" expanded="true" />
-            <element signature="e#5607#5608#0" expanded="true" />
-            <element signature="e#5637#5638#0" expanded="true" />
-            <element signature="e#5695#5696#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5763#5764#0" expanded="true" />
-            <element signature="e#5787#5788#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
         </state>
       </provider>
     </entry>
