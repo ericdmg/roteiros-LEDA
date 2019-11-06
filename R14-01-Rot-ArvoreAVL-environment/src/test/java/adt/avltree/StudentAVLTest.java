@@ -18,6 +18,7 @@ public class StudentAVLTest {
 		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40,5 };
 		for (int i : array) {
 			avl.insert(i);
+
 		}
 	}
 
@@ -214,7 +215,6 @@ public class StudentAVLTest {
 		assertEquals(new Integer(0), avl.predecessor(2).getData());
 		assertEquals(new Integer(5), avl.sucessor(2).getData());
 		assertEquals(new Integer(67), avl.sucessor(23).getData());
-		System.out.println(Arrays.toString(avl.preOrder()));
 	}
 
 	@Test

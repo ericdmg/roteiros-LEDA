@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d53f8ae-dade-41fd-a970-f3719a3e6cc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/src/test/java/adt/avltree/StudentAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/src/test/java/adt/avltree/StudentAVLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/classes/adt/avltree/AVLTreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/classes/adt/avltree/AVLTreeImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/test-classes/adt/avltree/StudentAVLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/test-classes/adt/avltree/StudentAVLTest.class" afterDir="false" />
@@ -26,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2646">
-              <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="1070">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
@@ -125,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="1298" />
@@ -378,20 +376,11 @@
       <workItem from="1571786408234" duration="18253000" />
       <workItem from="1571845442715" duration="8349000" />
       <workItem from="1572910729398" duration="40000" />
-      <workItem from="1573001671124" duration="2002000" />
+      <workItem from="1573001671124" duration="2615000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentBSTTest - 2019.10.23 at 14h 35m 16s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest - 2019.10.23 at 14h 37m 03s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest - 2019.10.23 at 15h 02m 14s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentBSTTest - 2019.10.23 at 15h 09m 05s.xml">
       <configuration name="StudentBSTTest" configurationId="JUnit" />
     </history-entry>
@@ -413,15 +402,24 @@
     <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 16m 18s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentBSTTest - 2019.11.06 at 00h 00m 33s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2019.11.06 at 00h 00m 39s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2019.11.06 at 00h 00m 42s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42982000" />
+    <option name="totallyTimeSpent" value="43595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2629896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,7 +428,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32888147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,20 +484,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java</url>
-          <line>176</line>
-          <properties class="adt.bst.BSTImpl" method="removal">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Number.java" />
@@ -564,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="1070">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#201#202#0" expanded="true" />
@@ -582,7 +566,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2646">
-          <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
         </state>
       </provider>
     </entry>

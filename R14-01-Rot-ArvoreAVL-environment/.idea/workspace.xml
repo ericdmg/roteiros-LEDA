@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" line="60" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="7997919c-4cf2-454e-9b4a-d75cc52840a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/avltree/StudentAVLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/avltree/StudentAVLTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,9 +16,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="157" />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -30,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="-1044">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -39,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="324">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
@@ -48,8 +42,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4680">
-              <caret line="269" column="56" lean-forward="true" selection-start-line="269" selection-start-column="23" selection-end-line="269" selection-end-column="56" />
+            <state relative-caret-position="-230">
+              <caret line="235" column="89" selection-start-line="235" selection-start-column="89" selection-end-line="235" selection-end-column="89" />
+              <folding>
+                <element signature="e#262#271#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-982">
+            <state relative-caret-position="720">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#6638#6639#0" expanded="true" />
@@ -74,7 +73,6 @@
       <find>remove</find>
       <find>preor</find>
       <find>set</find>
-      <find>tree</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,9 +82,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" />
       </list>
     </option>
   </component>
@@ -120,7 +118,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -139,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.rodar maven">
+  <component name="RunManager" selected="JUnit.StudentAVLTest">
     <configuration name="StudentAVLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -155,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAVLTest.testRemove3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentAVLTest.testInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
         <pattern>
@@ -165,13 +163,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.avltree" />
       <option name="MAIN_CLASS_NAME" value="adt.avltree.StudentAVLTest" />
-      <option name="METHOD_NAME" value="testRemove3" />
+      <option name="METHOD_NAME" value="testInit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAVLTest.testRemove5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentAVLTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
         <pattern>
@@ -181,13 +179,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.avltree" />
       <option name="MAIN_CLASS_NAME" value="adt.avltree.StudentAVLTest" />
-      <option name="METHOD_NAME" value="testRemove5" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAVLTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentAVLTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
         <pattern>
@@ -197,69 +195,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.avltree" />
       <option name="MAIN_CLASS_NAME" value="adt.avltree.StudentAVLTest" />
-      <option name="METHOD_NAME" value="testSearch" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="StudentAVLTest.testSucessorPredecessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.avltree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.avltree" />
-      <option name="MAIN_CLASS_NAME" value="adt.avltree.StudentAVLTest" />
-      <option name="METHOD_NAME" value="testSucessorPredecessor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="rodar maven" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="install" />
-                <option value="-DskipTests" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.rodar maven" />
-      <item itemvalue="JUnit.StudentAVLTest.testSearch" />
-      <item itemvalue="JUnit.StudentAVLTest.testRemove5" />
-      <item itemvalue="JUnit.StudentAVLTest.testSucessorPredecessor" />
       <item itemvalue="JUnit.StudentAVLTest" />
-      <item itemvalue="JUnit.StudentAVLTest.testRemove3" />
+      <item itemvalue="JUnit.StudentAVLTest.testInit" />
+      <item itemvalue="JUnit.StudentAVLTest.testInsert" />
+      <item itemvalue="JUnit.StudentAVLTest.testRemove" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentAVLTest" />
-        <item itemvalue="JUnit.StudentAVLTest.testRemove3" />
-        <item itemvalue="JUnit.StudentAVLTest.testSearch" />
-        <item itemvalue="JUnit.StudentAVLTest.testSucessorPredecessor" />
-        <item itemvalue="JUnit.StudentAVLTest.testRemove5" />
+        <item itemvalue="JUnit.StudentAVLTest.testRemove" />
+        <item itemvalue="JUnit.StudentAVLTest.testInsert" />
+        <item itemvalue="JUnit.StudentAVLTest.testInit" />
       </list>
     </recent_temporary>
   </component>
@@ -274,44 +227,44 @@
       <option name="presentableId" value="Default" />
       <updated>1572907652615</updated>
       <workItem from="1572907656274" duration="9307000" />
-      <workItem from="1572996317858" duration="12220000" />
+      <workItem from="1573010419041" duration="516000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentAVLTest_testSearch - 2019.11.05 at 23h 31m 45s.xml">
-      <configuration name="StudentAVLTest.testSearch" configurationId="JUnit" />
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 38m 57s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentAVLTest_testRemove5 - 2019.11.05 at 23h 32m 04s.xml">
-      <configuration name="StudentAVLTest.testRemove5" configurationId="JUnit" />
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 40m 20s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentAVLTest_testSucessorPredecessor - 2019.11.05 at 23h 32m 26s.xml">
-      <configuration name="StudentAVLTest.testSucessorPredecessor" configurationId="JUnit" />
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 40m 58s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentAVLTest_testSucessorPredecessor - 2019.11.05 at 23h 32m 40s.xml">
-      <configuration name="StudentAVLTest.testSucessorPredecessor" configurationId="JUnit" />
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 45m 02s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentAVLTest - 2019.11.05 at 23h 34m 39s.xml">
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 45m 14s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 48m 56s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentAVLTest_testRemove - 2019.11.04 at 22h 53m 34s.xml">
+      <configuration name="StudentAVLTest.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentAVLTest - 2019.11.06 at 00h 20m 25s.xml">
       <configuration name="StudentAVLTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentAVLTest - 2019.11.05 at 23h 34m 59s.xml">
+    <history-entry file="StudentAVLTest - 2019.11.06 at 00h 24m 53s.xml">
       <configuration name="StudentAVLTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentAVLTest - 2019.11.05 at 23h 35m 02s.xml">
+    <history-entry file="StudentAVLTest - 2019.11.06 at 00h 25m 37s.xml">
       <configuration name="StudentAVLTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentAVLTest - 2019.11.05 at 23h 35m 08s.xml">
-      <configuration name="StudentAVLTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentAVLTest - 2019.11.05 at 23h 53m 54s.xml">
-      <configuration name="StudentAVLTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentAVLTest_testSearch - 2019.11.05 at 23h 55m 13s.xml">
-      <configuration name="StudentAVLTest.testSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21527000" />
+    <option name="totallyTimeSpent" value="9847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -319,11 +272,11 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24940048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
@@ -331,22 +284,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32888147" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32933652" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24940048" />
@@ -397,19 +349,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java</url>
-          <line>118</line>
-          <properties class="adt.avltree.AVLTreeImpl" method="rebalanceUp">
+          <line>120</line>
+          <properties class="adt.avltree.AVLTreeImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java</url>
-          <line>26</line>
-          <properties class="adt.bt.Util" method="rightRotation">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java</url>
@@ -417,7 +361,39 @@
           <properties class="adt.bt.Util" method="leftRotation">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java</url>
+          <line>35</line>
+          <properties class="adt.bt.Util" method="makeArrayOfComparable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java</url>
+          <line>249</line>
+          <properties class="adt.bst.BSTImpl" method="size">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java</url>
+          <line>245</line>
+          <properties class="adt.bst.BSTImpl" method="size">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java</url>
+          <line>26</line>
+          <properties class="adt.bt.Util" method="rightRotation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -434,6 +410,13 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -452,6 +435,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -459,33 +449,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="1048" selection-start-line="1048" selection-end-line="1048" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-982">
+        <state relative-caret-position="720">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#6638#6639#0" expanded="true" />
@@ -494,24 +467,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="-1044">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4680">
-          <caret line="269" column="56" lean-forward="true" selection-start-line="269" selection-start-column="23" selection-end-line="269" selection-end-column="56" />
+        <state relative-caret-position="-230">
+          <caret line="235" column="89" selection-start-line="235" selection-start-column="89" selection-end-line="235" selection-end-column="89" />
+          <folding>
+            <element signature="e#262#271#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
