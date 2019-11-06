@@ -7,10 +7,19 @@ import org.junit.Before;
 
 import adt.bst.BSTNode;
 
+import java.util.Arrays;
+
 public class StudentAVLTest {
 
 	private AVLTree<Integer> avl;
 	private BSTNode<Integer> NIL = new BSTNode<Integer>();
+
+	private void fillTree() {
+		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40,5 };
+		for (int i : array) {
+			avl.insert(i);
+		}
+	}
 
 	@Before
 	public void setUp() {
@@ -47,6 +56,45 @@ public class StudentAVLTest {
 	}
 
 	@Test
+	public void testInsert2(){ // left -> right
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(4);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 4,3,7,11 }, avl.preOrder());
+	}
+
+	@Test
+	public void testInsert3(){ // right -> right
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(12);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 11,7,3,12 }, avl.preOrder());
+	}
+
+	@Test
+	public void testInsert4(){ // right -> left
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(10);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 10,7,3,11 }, avl.preOrder());
+	}
+
+	@Test
+	public void testInsert5(){ // left -> left
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(2);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 3,2,7,11 }, avl.preOrder());
+	}
+	@Test
 	public void testRemove() {
 		avl.insert(55);
 		avl.insert(9);
@@ -68,5 +116,161 @@ public class StudentAVLTest {
 		avl.remove(55);
 		assertEquals(NIL, avl.getRoot());
 		assertTrue(avl.isEmpty());
+	}
+
+	@Test
+	public void testRemove2(){// remover nó com 2 filhos, raiz pesada pra direita após rotação
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(2);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 3,2,7,11 }, avl.preOrder());
+
+		avl.remove(3);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 7,2,11 }, avl.preOrder());
+	}
+
+	@Test
+	public void testRemove3(){// remover nó com 2 filhos, raiz pesada pra esquerda após rotação
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(12);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 11,7,3,12 }, avl.preOrder());
+
+		avl.remove(11);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 7,3,12 }, avl.preOrder());
+	}
+
+	@Test
+	public void testRemove4(){// remover nó com 1 filho à direita, raiz pesada pra direita após rotação
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(2);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 3,2,7,11 }, avl.preOrder());
+
+		avl.remove(7);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 3,2,11 }, avl.preOrder());
+	}
+
+	@Test
+	public void testRemove5(){// remover nó com 1 filho à esquerda, raiz pesada pra esquerda após rotação
+		avl.insert(7);
+		avl.insert(3);
+		avl.insert(11);
+		avl.insert(12);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 11,7,3,12 }, avl.preOrder());
+
+		avl.remove(7);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 11,3,12 }, avl.preOrder());
+	}
+
+	@Test
+	public void testMinMax() {
+		avl.insert(6);
+		assertEquals(new Integer(6), avl.minimum().getData());
+		assertEquals(new Integer(6), avl.maximum().getData());
+
+		avl.insert(23);
+		assertEquals(new Integer(6), avl.minimum().getData());
+		assertEquals(new Integer(23), avl.maximum().getData());
+
+		avl.insert(-34);
+		assertEquals(new Integer(-34), avl.minimum().getData());
+		assertEquals(new Integer(23), avl.maximum().getData());
+
+		avl.insert(5);
+		assertEquals(new Integer(-34), avl.minimum().getData());
+		assertEquals(new Integer(23), avl.maximum().getData());
+
+		avl.insert(9);
+		assertEquals(new Integer(-34), avl.minimum().getData());
+		assertEquals(new Integer(23), avl.maximum().getData());
+	}
+
+	@Test
+	public void testSucessorPredecessor() {
+
+		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
+
+		assertEquals(null, avl.predecessor(-40));
+		assertEquals(new Integer(-34), avl.sucessor(-40).getData());
+
+		assertEquals(new Integer(-40), avl.predecessor(-34).getData());
+		assertEquals(new Integer(0), avl.sucessor(-34).getData());
+
+		assertEquals(new Integer(-34), avl.predecessor(0).getData());
+		assertEquals(new Integer(2), avl.sucessor(0).getData());
+
+		assertEquals(new Integer(0), avl.predecessor(2).getData());
+		assertEquals(new Integer(5), avl.sucessor(2).getData());
+		assertEquals(new Integer(67), avl.sucessor(23).getData());
+		System.out.println(Arrays.toString(avl.preOrder()));
+	}
+
+	@Test
+	public void testSize() {
+		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
+
+		int size = 12;
+		assertEquals(size, avl.size());
+		while (!avl.isEmpty()) {
+			avl.remove(avl.getRoot().getData());
+			assertEquals(--size, avl.size());
+		}
+	}
+
+	@Test
+	public void testHeight() {
+		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
+		System.out.println(Arrays.toString(avl.preOrder()));
+		Integer[] preOrder = new Integer[] { 5, -34, -40, 2, 0, 6, 23, 9, 12, 76, 67, 232 };
+		assertArrayEquals(preOrder, avl.preOrder());
+		assertEquals(4, avl.height());
+
+		avl.remove(0);
+		assertEquals(3, avl.height());
+
+		avl.remove(2);
+		assertEquals(3, avl.height());
+	}
+
+	@Test
+	public void testRemove6() {
+		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
+
+		Integer[] order = { -40, -34, 0, 2, 5, 6, 9, 12, 23, 67, 76, 232 };
+		assertArrayEquals(order, avl.order());
+
+		avl.remove(6);
+		order = new Integer[] { -40, -34, 0, 2, 5, 9, 12, 23, 67, 76, 232 };
+		assertArrayEquals(order, avl.order());
+
+		avl.remove(9);
+		order = new Integer[] { -40, -34, 0, 2, 5, 12, 23, 67, 76, 232 };
+		assertArrayEquals(order, avl.order());
+
+		assertEquals(NIL, avl.search(6));
+		assertEquals(NIL, avl.search(9));
+
+	}
+
+	@Test
+	public void testSearch() {
+
+		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
+
+		assertEquals(new Integer(-40), avl.search(-40).getData());
+		assertEquals(new Integer(-34), avl.search(-34).getData());
+		assertEquals(NIL, avl.search(2534));
 	}
 }
