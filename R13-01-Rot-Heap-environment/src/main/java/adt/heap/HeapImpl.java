@@ -83,48 +83,24 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
     */
    private void heapify(int position) {
       int largest = position;
-      int right = right(position);
-      int left = left(position);
-      T[] heap = getHeap();
+      int right = this.right(position);
+      int left = this.left(position);
       Comparator<T> comparator = getComparator();
-      if (heap[left] != null) {
-         if (comparator.compare(heap[left], heap[largest]) > 0) {
-            if (heap[right] == null || comparator.compare(heap[left], heap[right]) > 0) {
-               largest = left;
-            }
-         }
+      if(left < this.size() && comparator.compare(this.heap[left], this.heap[position]) > 0){
+         largest = left;
       }
-
-      if (heap[right] != null) {
-         if (comparator.compare(heap[right], heap[largest]) > 0 && comparator.compare(heap[right], heap[left]) > 0) {
-            largest = right;
-         }
+      if(right < this.size() && comparator.compare(this.heap[right], this.heap[position]) > 0){
+         largest = right;
       }
-
-      if (largest != position) {
-         Util.swap(heap, position, largest);
+      if(largest != position){
+         Util.swap(this.heap,largest,position);
          heapify(parent(position));
-         if (topDown(heap, largest)) {
+         if(this.left(largest) < this.size() || this.right(largest) < this.size()){
             heapify(largest);
          }
       }
-
    }
-    //Este método verifica se o heapify a ser executado utiliza a
-    //abordagem top -> down
-   private boolean topDown(T[] heap, int largest) {
-      boolean answer = false;
-      if (left(largest) >= this.heap.length || right(largest) >= this.heap.length) {
-         answer = false;
-      } else if (heap[left(largest)] != null && getComparator().compare(heap[left(largest)], heap[largest]) > 0) {
-         answer = true;
-      }
 
-      else if (heap[right(largest)] != null && getComparator().compare(heap[right(largest)], heap[largest]) > 0) {
-         answer = true;
-      }
-      return answer;
-   }
 
    @Override
    public void insert(T element) {
@@ -159,8 +135,8 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
       T extractedRoot = null;
       if (!isEmpty()) {
          extractedRoot = getHeap()[0];
-         getHeap()[0] = getHeap()[this.index];
-         getHeap()[this.index] = null;
+         this.heap[0] = null;
+         Util.swap(this.heap,0,this.index);
          this.index--;
          heapify(0);
 

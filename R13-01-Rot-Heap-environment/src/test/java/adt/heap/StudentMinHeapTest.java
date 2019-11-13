@@ -49,7 +49,7 @@ public class StudentMinHeapTest {
 
 		assertEquals(10, heap.size());
 		assertFalse(heap.isEmpty());
-
+		System.out.println(Arrays.toString(heap.toArray()));
 		verifyHeap(new Integer[] { -10, -5, -2, 3, 0, 8, 14, 12, 7, 8 });
 	}
 
@@ -65,7 +65,7 @@ public class StudentMinHeapTest {
 		heap.insert(79);
 		heap.insert(53);
 		heap.insert(30);
-
+		System.out.println(Arrays.toString(heap.toArray()));
 		assertEquals(new Integer(15), heap.extractRootElement());
 		assertEquals(new Integer(17), heap.extractRootElement());
 		assertEquals(new Integer(22), heap.extractRootElement());
