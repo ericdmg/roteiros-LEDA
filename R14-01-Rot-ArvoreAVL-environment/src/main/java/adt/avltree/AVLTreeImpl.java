@@ -21,7 +21,6 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
    public void insert(T element) {
       if (element != null && search(element).isEmpty()) {
          treeInsert(getRoot(), new BSTNode<>(), element);
-         rebalance(getRoot());
       }
 
    }
@@ -37,13 +36,13 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
       } else if (node.getData().compareTo(element) > 0) {
          treeInsert(((BSTNode<T>) node.getLeft()), node, element);
       }
+      rebalance(node);
    }
 
    @Override
    public void remove(T element) {
       if (!getRoot().isEmpty() && element != null && !search(element).isEmpty()) {
          removal(element);
-         rebalance(getRoot());
       }
    }
 
@@ -51,17 +50,17 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
       BSTNode<T> aux = search(element);
       if (aux.isLeaf()) {
          aux.setData(null);
-
+         rebalanceUp(aux);
       } else if ((aux.getLeft().isEmpty() && !aux.getRight().isEmpty())) {
          aux.setData(aux.getRight().getData());
          aux.setLeft(aux.getRight().getLeft());
          aux.setRight(aux.getRight().getRight());
-
+         rebalanceUp(aux);
       } else if ((aux.getRight().isEmpty() && !aux.getLeft().isEmpty())) {
          aux.setData(aux.getLeft().getData());
          aux.setRight(aux.getLeft().getRight());
          aux.setLeft(aux.getLeft().getLeft());
-
+         rebalanceUp(aux);
       } else {
          T sucessor = sucessor(element).getData();
          removal(sucessor);
@@ -86,25 +85,37 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
    // AUXILIARY
    protected void rebalance(BSTNode<T> node) {
       int balance = calculateBalance(node);
-      if (balance <= -1) { // raiz pesada pra direita
+      if (balance < -1) { // raiz pesada pra direita
          int childBalance = calculateBalance(((BSTNode<T>) node.getRight()));
-         if (childBalance < -1 || childBalance <= -1 && node.getRight().getLeft().isEmpty()) { //raiz e filho à direita da raiz pesam pra direita = rotação simples pra esquerda
-            this.root = Util.leftRotation(node);
-         } else if (childBalance > 1 || childBalance >= 1 && node.getRight().getRight().isEmpty()) {//raiz pesa pra direita e filho à direita pesa pra esquerda = rotação dupla R/L
+         if (childBalance <= -1) { //raiz e filho à direita da raiz pesam pra direita = rotação simples pra esquerda
+            BSTNode<T> newRoot = Util.leftRotation(node);
+            if (newRoot.getParent().isEmpty()) {
+               this.root = newRoot;
+            }
+         } else if (childBalance >= 1) {//raiz pesa pra direita e filho à direita pesa pra esquerda = rotação dupla R/L
             BSTNode<T> newSon = Util.rightRotation(((BSTNode<T>) node.getRight()));
             node.setRight(newSon);
             BSTNode<T> newRoot = Util.leftRotation(node);
-            this.root = newRoot;
+            if (newRoot.getParent().isEmpty()) {
+               this.root = newRoot;
+            }
+
          }
-      } else if (balance >= 1) { // raiz pesada pra esquerda
+      } else if (balance > 1) { // raiz pesada pra esquerda
          int childBalance = calculateBalance(((BSTNode<T>) node.getLeft()));
-         if (childBalance > 1 || childBalance >= 1 && node.getLeft().getRight().isEmpty()) {// raiz e filho à esquerda da raiz pesam pra esquerda = rotação simples pra direita
-            this.root = Util.rightRotation(node);
-         } else if (childBalance < -1 || childBalance <= -1 && node.getLeft().getLeft().isEmpty()) {//raiz pesa pra esquerda e filho à esquerda pesa pra direita = rotação dupla L/R
+         if (childBalance >= 1) {// raiz e filho à esquerda da raiz pesam pra esquerda = rotação simples pra direita
+            BSTNode<T> newRoot = Util.rightRotation(node);
+
+            if (newRoot.getParent().isEmpty()) {
+               this.root = newRoot;
+            }
+         } else if (childBalance <= -1) {//raiz pesa pra esquerda e filho à esquerda pesa pra direita = rotação dupla L/R
             BSTNode<T> newSon = Util.leftRotation(((BSTNode<T>) node.getLeft()));
             node.setLeft(newSon);
             BSTNode<T> newRoot = Util.rightRotation(node);
-            this.root = newRoot;
+            if (newRoot.getParent().isEmpty()) {
+               this.root = newRoot;
+            }
          }
       }
    }

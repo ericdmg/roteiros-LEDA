@@ -17,7 +17,9 @@ public class StudentAVLTest {
 	private void fillTree() {
 		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40,5 };
 		for (int i : array) {
+			System.out.println(i);
 			avl.insert(i);
+			System.out.println(Arrays.toString(avl.preOrder()));
 
 		}
 	}
@@ -57,13 +59,17 @@ public class StudentAVLTest {
 	}
 
 	@Test
-	public void testInsert2(){ // left -> right
+	public void testInsert2(){ // left -> right dps vira left / left
 		avl.insert(7);
 		avl.insert(3);
 		avl.insert(11);
 		avl.insert(4);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 4,3,7,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,4,11}, avl.preOrder());
+		avl.remove(11);
+		assertEquals(1,avl.height());
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 4,3,7 }, avl.preOrder());
 	}
 
 	@Test
@@ -73,7 +79,11 @@ public class StudentAVLTest {
 		avl.insert(11);
 		avl.insert(12);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 11,7,3,12 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,11,12 }, avl.preOrder());
+		avl.remove(3);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertEquals(1,avl.height());
+		assertArrayEquals(new Integer[] { 11,7,12 }, avl.preOrder());
 	}
 
 	@Test
@@ -83,7 +93,10 @@ public class StudentAVLTest {
 		avl.insert(11);
 		avl.insert(10);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 10,7,3,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,11,10 }, avl.preOrder());
+		avl.remove(3);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 10,7,11 }, avl.preOrder());
 	}
 
 	@Test
@@ -93,7 +106,10 @@ public class StudentAVLTest {
 		avl.insert(11);
 		avl.insert(2);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 3,2,7,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,2,11 }, avl.preOrder());
+		avl.remove(11);
+		System.out.println(Arrays.toString(avl.preOrder()));
+		assertArrayEquals(new Integer[] { 3,2,7 }, avl.preOrder());
 	}
 	@Test
 	public void testRemove() {
@@ -126,11 +142,11 @@ public class StudentAVLTest {
 		avl.insert(11);
 		avl.insert(2);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 3,2,7,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,2,11 }, avl.preOrder());
 
-		avl.remove(3);
+		avl.remove(7);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 7,2,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 3,2,11 }, avl.preOrder());
 	}
 
 	@Test
@@ -140,11 +156,11 @@ public class StudentAVLTest {
 		avl.insert(11);
 		avl.insert(12);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 11,7,3,12 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,11,12 }, avl.preOrder());
 
-		avl.remove(11);
+		avl.remove(7);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 7,3,12 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 11,3,12 }, avl.preOrder());
 	}
 
 	@Test
@@ -154,11 +170,11 @@ public class StudentAVLTest {
 		avl.insert(11);
 		avl.insert(2);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 3,2,7,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,2,11 }, avl.preOrder());
 
-		avl.remove(7);
+		avl.remove(3);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 3,2,11 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,2,11 }, avl.preOrder());
 	}
 
 	@Test
@@ -166,13 +182,13 @@ public class StudentAVLTest {
 		avl.insert(7);
 		avl.insert(3);
 		avl.insert(11);
-		avl.insert(12);
+		avl.insert(10);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 11,7,3,12 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,11,10 }, avl.preOrder());
 
-		avl.remove(7);
+		avl.remove(11);
 		System.out.println(Arrays.toString(avl.preOrder()));
-		assertArrayEquals(new Integer[] { 11,3,12 }, avl.preOrder());
+		assertArrayEquals(new Integer[] { 7,3,10 }, avl.preOrder());
 	}
 
 	@Test
@@ -233,14 +249,16 @@ public class StudentAVLTest {
 	public void testHeight() {
 		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
 		System.out.println(Arrays.toString(avl.preOrder()));
-		Integer[] preOrder = new Integer[] { 5, -34, -40, 2, 0, 6, 23, 9, 12, 76, 67, 232 };
+		Integer[] preOrder = new Integer[] { 6, 2, -34, -40, 0, 5, 23, 9, 12, 76, 67, 232 };
 		assertArrayEquals(preOrder, avl.preOrder());
-		assertEquals(4, avl.height());
+		assertEquals(3, avl.height());
 
 		avl.remove(0);
+		System.out.println(Arrays.toString(avl.preOrder()));
 		assertEquals(3, avl.height());
 
 		avl.remove(2);
+		System.out.println(Arrays.toString(avl.preOrder()));
 		assertEquals(3, avl.height());
 	}
 

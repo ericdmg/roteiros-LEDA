@@ -17,151 +17,199 @@ import util.Util;
  */
 public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
-	protected T[] heap;
-	protected int index = -1;
-	/**
-	 * O comparador é utilizado para fazer as comparações da heap. O ideal é
-	 * mudar apenas o comparator e mandar reordenar a heap usando esse
-	 * comparator. Assim os metodos da heap não precisam saber se vai funcionar
-	 * como max-heap ou min-heap.
-	 */
-	protected Comparator<T> comparator;
+   protected T[] heap;
+   protected int index = -1;
+   /**
+    * O comparador é utilizado para fazer as comparações da heap. O ideal é
+    * mudar apenas o comparator e mandar reordenar a heap usando esse
+    * comparator. Assim os metodos da heap não precisam saber se vai funcionar
+    * como max-heap ou min-heap.
+    */
+   protected Comparator<T> comparator;
 
-	private static final int INITIAL_SIZE = 20;
-	private static final int INCREASING_FACTOR = 10;
+   private static final int INITIAL_SIZE = 20;
+   private static final int INCREASING_FACTOR = 10;
 
-	/**
-	 * Construtor da classe. Note que de inicio a heap funciona como uma
-	 * min-heap.
-	 */
-	@SuppressWarnings("unchecked")
-	public HeapImpl(Comparator<T> comparator) {
-		this.heap = (T[]) (new Comparable[INITIAL_SIZE]);
-		this.comparator = comparator;
-	}
+   /**
+    * Construtor da classe. Note que de inicio a heap funciona como uma
+    * min-heap.
+    */
+   @SuppressWarnings("unchecked")
+   public HeapImpl(Comparator<T> comparator) {
+      this.heap = (T[]) (new Comparable[INITIAL_SIZE]);
+      this.comparator = comparator;
+   }
 
-	// /////////////////// METODOS IMPLEMENTADOS
-	private int parent(int i) {
-		return (i - 1) / 2;
-	}
+   // /////////////////// METODOS IMPLEMENTADOS
+   private int parent(int i) {
+      return (i - 1) / 2;
+   }
 
-	/**
-	 * Deve retornar o indice que representa o filho a esquerda do elemento
-	 * indexado pela posicao i no vetor
-	 */
-	private int left(int i) {
-		return (i * 2 + 1);
-	}
+   /**
+    * Deve retornar o indice que representa o filho a esquerda do elemento
+    * indexado pela posicao i no vetor
+    */
+   private int left(int i) {
+      return (i * 2 + 1);
+   }
 
-	/**
-	 * Deve retornar o indice que representa o filho a direita do elemento
-	 * indexado pela posicao i no vetor
-	 */
-	private int right(int i) {
-		return (i * 2 + 1) + 1;
-	}
+   /**
+    * Deve retornar o indice que representa o filho a direita do elemento
+    * indexado pela posicao i no vetor
+    */
+   private int right(int i) {
+      return (i * 2 + 1) + 1;
+   }
 
-	@Override
-	public boolean isEmpty() {
-		return (index == -1);
-	}
+   @Override
+   public boolean isEmpty() {
+      return (index == -1);
+   }
 
-	@Override
-	public T[] toArray() {
-		ArrayList<T> resp = new ArrayList<T>();
-		for (int i = 0; i <= this.index; i++) {
-			resp.add(this.heap[i]);
-		}
-		return (T[])resp.toArray(new Comparable[0]);
-	}
+   @Override
+   public T[] toArray() {
+      ArrayList<T> resp = new ArrayList<T>();
+      for (int i = 0; i <= this.index; i++) {
+         resp.add(this.heap[i]);
+      }
+      return (T[]) resp.toArray(new Comparable[0]);
+   }
 
-	// ///////////// METODOS A IMPLEMENTAR
-	/**
-	 * Valida o invariante de uma heap a partir de determinada posicao, que pode
-	 * ser a raiz da heap ou de uma sub-heap. O heapify deve colocar os maiores
-	 * (comparados usando o comparator) elementos na parte de cima da heap.
-	 */
-	private void heapify(int position) {
-		recursiveHeapify(position,index);
-	}
+   // ///////////// METODOS A IMPLEMENTAR
+   /**
+    * Valida o invariante de uma heap a partir de determinada posicao, que pode
+    * ser a raiz da heap ou de uma sub-heap. O heapify deve colocar os maiores
+    * (comparados usando o comparator) elementos na parte de cima da heap.
+    */
+   private void heapify(int position) {
+      int largest = position;
+      int right = right(position);
+      int left = left(position);
+      T[] heap = getHeap();
+      Comparator<T> comparator = getComparator();
+      if (heap[left] != null) {
+         if (comparator.compare(heap[left], heap[largest]) > 0) {
+            if (heap[right] == null || comparator.compare(heap[left], heap[right]) > 0) {
+               largest = left;
+            }
+         }
+      }
 
-	private void recursiveHeapify(int position, int heapSize) {
-		// Find parent
-		int parent = (position - 1) / 2;
+      if (heap[right] != null) {
+         if (comparator.compare(heap[right], heap[largest]) > 0 && comparator.compare(heap[right], heap[left]) > 0) {
+            largest = right;
+         }
+      }
 
-			if(getHeap()[parent] != null) {
-				if (getComparator().compare(getHeap()[position], getHeap()[parent]) > 0) {
-					Util.swap(getHeap(), parent, position);
-					recursiveHeapify(parent, heapSize);
-				}
-			}
-		}
+      if (largest != position) {
+         Util.swap(heap, position, largest);
+         heapify(parent(position));
+         if (topDown(heap, largest)) {
+            heapify(largest);
+         }
+      }
 
+   }
+    //Este método verifica se o heapify a ser executado utiliza a
+    //abordagem top -> down
+   private boolean topDown(T[] heap, int largest) {
+      boolean answer = false;
+      if (left(largest) >= this.heap.length || right(largest) >= this.heap.length) {
+         answer = false;
+      } else if (heap[left(largest)] != null && getComparator().compare(heap[left(largest)], heap[largest]) > 0) {
+         answer = true;
+      }
 
+      else if (heap[right(largest)] != null && getComparator().compare(heap[right(largest)], heap[largest]) > 0) {
+         answer = true;
+      }
+      return answer;
+   }
 
+   @Override
+   public void insert(T element) {
+      if (element != null) {
+         // ESSE CODIGO E PARA A HEAP CRESCER SE FOR PRECISO. NAO MODIFIQUE
+         if (index == heap.length - 1) {
+            heap = Arrays.copyOf(heap, heap.length + INCREASING_FACTOR);
+         }
+         this.index++;
+         getHeap()[index] = element;
+         heapify(parent(index));
+      }
 
-	@Override
-	public void insert(T element) {
-		// ESSE CODIGO E PARA A HEAP CRESCER SE FOR PRECISO. NAO MODIFIQUE
-		if (index == heap.length - 1) {
-			heap = Arrays.copyOf(heap, heap.length + INCREASING_FACTOR);
-		}
-		index++;
-		getHeap()[index] = element;
-		heapify(index);
-	}
+   }
 
-	@Override
-	public void buildHeap(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
+   @Override
+   public void buildHeap(T[] array) {
+      if (array != null) {
+         if (!isEmpty()) {
+            index = -1;
+            this.heap = (T[]) (new Comparable[array.length]);
+         }
+         for (int i = 0; i < array.length; i++) {
+            insert(array[i]);
+         }
+      }
 
-	@Override
-	public T extractRootElement() {
-		T extractedRootElement = getHeap()[0];
-		T lastElement = getHeap()[this.index];
+   }
 
-		// Replace root with first element
-		getHeap()[0] = lastElement;
+   @Override
+   public T extractRootElement() {
+      T extractedRoot = null;
+      if (!isEmpty()) {
+         extractedRoot = getHeap()[0];
+         getHeap()[0] = getHeap()[this.index];
+         getHeap()[this.index] = null;
+         this.index--;
+         heapify(0);
 
-		// Decrease size of heap by 1
-		this.index--;
+      }
+      return extractedRoot;
+   }
 
-		// heapify the root node
-		recursiveHeapify(1,index);
-		//heapify(arr, n, 0);
-		return extractedRootElement;
+   @Override
+   public T rootElement() {
+      T root = null;
+      if (!isEmpty()) {
+         root = getHeap()[0];
+      }
+      return root;
+   }
 
-	}
-
-	@Override
-	public T rootElement() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
-
-	@Override
+   @Override
 	public T[] heapsort(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+	    if(array != null) {
+	        Comparator<T> currentComparator = this.getComparator();
+            this.setComparator((o1, o2) -> o2.compareTo(o1));
+            buildHeap(array);
+
+            for (int i = 0; i < array.length; i++) {
+                array[i] = this.extractRootElement();
+            }
+
+            this.setComparator(currentComparator);
+        }
+
+
+		return array;
 	}
 
-	@Override
-	public int size() {
-		return this.index + 1;
-	}
+   @Override
+   public int size() {
+      return index + 1;
+   }
 
-	public Comparator<T> getComparator() {
-		return comparator;
-	}
+   public Comparator<T> getComparator() {
+      return comparator;
+   }
 
-	public void setComparator(Comparator<T> comparator) {
-		this.comparator = comparator;
-	}
+   public void setComparator(Comparator<T> comparator) {
+      this.comparator = comparator;
+   }
 
-	public T[] getHeap() {
-		return heap;
-	}
+   public T[] getHeap() {
+      return heap;
+   }
 
 }
