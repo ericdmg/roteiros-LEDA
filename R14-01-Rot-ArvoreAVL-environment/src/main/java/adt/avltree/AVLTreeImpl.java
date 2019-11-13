@@ -85,38 +85,46 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
    // AUXILIARY
    protected void rebalance(BSTNode<T> node) {
       int balance = calculateBalance(node);
-      if (balance < -1) { // raiz pesada pra direita
-         int childBalance = calculateBalance(((BSTNode<T>) node.getRight()));
-         if (childBalance <= -1) { //raiz e filho à direita da raiz pesam pra direita = rotação simples pra esquerda
-            BSTNode<T> newRoot = Util.leftRotation(node);
-            if (newRoot.getParent().isEmpty()) {
-               this.root = newRoot;
-            }
-         } else if (childBalance >= 1) {//raiz pesa pra direita e filho à direita pesa pra esquerda = rotação dupla R/L
-            BSTNode<T> newSon = Util.rightRotation(((BSTNode<T>) node.getRight()));
-            node.setRight(newSon);
-            BSTNode<T> newRoot = Util.leftRotation(node);
-            if (newRoot.getParent().isEmpty()) {
-               this.root = newRoot;
-            }
-
+      if (balance < -1) {
+         if (calculateBalance((BSTNode<T>) node.getRight()) > 0) {
+            rightRotation((BSTNode<T>) node.getRight());
          }
-      } else if (balance > 1) { // raiz pesada pra esquerda
-         int childBalance = calculateBalance(((BSTNode<T>) node.getLeft()));
-         if (childBalance >= 1) {// raiz e filho à esquerda da raiz pesam pra esquerda = rotação simples pra direita
-            BSTNode<T> newRoot = Util.rightRotation(node);
-
-            if (newRoot.getParent().isEmpty()) {
-               this.root = newRoot;
-            }
-         } else if (childBalance <= -1) {//raiz pesa pra esquerda e filho à esquerda pesa pra direita = rotação dupla L/R
-            BSTNode<T> newSon = Util.leftRotation(((BSTNode<T>) node.getLeft()));
-            node.setLeft(newSon);
-            BSTNode<T> newRoot = Util.rightRotation(node);
-            if (newRoot.getParent().isEmpty()) {
-               this.root = newRoot;
-            }
+         leftRotation(node);
+      } else if (balance > 1) {
+         if (calculateBalance((BSTNode<T>) node.getLeft()) < 0) {
+            leftRotation((BSTNode<T>) node.getLeft());
          }
+         rightRotation(node);
+      }
+   }
+
+   private void rightRotation(BSTNode<T> node) {
+
+      if (node.equals(this.getRoot())) {
+         root = Util.rightRotation(node);
+      } else {
+
+         BSTNode<T> aux = Util.rightRotation(node);
+
+         if (aux.getData().compareTo(aux.getParent().getData()) > 0)
+            aux.getParent().setRight(aux);
+         else
+            aux.getParent().setLeft(aux);
+      }
+   }
+
+   private void leftRotation(BSTNode<T> node) {
+
+      if (node.equals(this.getRoot()))
+         root = Util.leftRotation(node);
+      else {
+
+         BSTNode<T> aux = Util.leftRotation(node);
+
+         if (aux.getData().compareTo(aux.getParent().getData()) < 0)
+            aux.getParent().setLeft(aux);
+         else
+            aux.getParent().setRight(aux);
       }
    }
 
