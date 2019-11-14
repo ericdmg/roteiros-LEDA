@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7997919c-4cf2-454e-9b4a-d75cc52840a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" afterDir="false" />
-    </list>
+    <list default="true" id="7997919c-4cf2-454e-9b4a-d75cc52840a4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
+            <state relative-caret-position="935">
               <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
             </state>
           </provider>
@@ -37,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -171,7 +167,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R16-01-Rot-SkipList-environment" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -328,7 +324,7 @@
       <workItem from="1573010419041" duration="516000" />
       <workItem from="1573055187595" duration="11117000" />
       <workItem from="1573269813313" duration="143000" />
-      <workItem from="1573670377240" duration="1265000" />
+      <workItem from="1573670377240" duration="1599000" />
     </task>
     <servers />
   </component>
@@ -365,11 +361,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22372000" />
+    <option name="totallyTimeSpent" value="22706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,7 +375,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32888147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4500">
@@ -543,6 +531,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
         </state>
       </provider>
     </entry>

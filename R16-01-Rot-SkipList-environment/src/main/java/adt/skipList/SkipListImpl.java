@@ -38,7 +38,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 		for (int i = this.maxHeight - 1; i >= 0; i--) {
 			while (aux.forward[i] != null && aux.forward[i].getKey() < key) {
 				aux = aux.forward[i];
-			}
+				}
 			update[i] = aux;
 		}
 		aux = aux.forward[0];

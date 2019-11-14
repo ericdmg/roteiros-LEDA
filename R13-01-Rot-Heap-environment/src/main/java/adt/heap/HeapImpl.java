@@ -89,7 +89,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
       if(left < this.size() && comparator.compare(this.heap[left], this.heap[position]) > 0){
          largest = left;
       }
-      if(right < this.size() && comparator.compare(this.heap[right], this.heap[position]) > 0){
+      if(right < this.size() && comparator.compare(this.heap[right], this.heap[largest]) > 0){
          largest = right;
       }
       if(largest != position){
@@ -142,6 +142,20 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
       }
       return extractedRoot;
+
+//      if (!this.isEmpty()) {
+//
+//         T element = this.heap[0];
+//         this.heap[0] = null;
+//         Util.swap(this.heap, 0, this.index);
+//         index--;
+//
+//         this.heapify(0);
+//         return element;
+//
+//      } else
+//         return null;
+//   }
    }
 
    @Override

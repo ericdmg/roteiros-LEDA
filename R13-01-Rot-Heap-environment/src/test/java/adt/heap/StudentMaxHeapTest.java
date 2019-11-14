@@ -86,10 +86,15 @@ public class StudentMaxHeapTest {
 
 
 		assertEquals(new Integer(79), heap.extractRootElement());
+		System.out.println(Arrays.toString(heap.toArray()));
 		assertEquals(new Integer(53), heap.extractRootElement());
+		System.out.println(Arrays.toString(heap.toArray()));
 		assertEquals(new Integer(45), heap.extractRootElement());
+		System.out.println(Arrays.toString(heap.toArray()));
 		assertEquals(new Integer(40), heap.extractRootElement());
+		System.out.println(Arrays.toString(heap.toArray()));
 		assertEquals(new Integer(38), heap.extractRootElement());
+		System.out.println(Arrays.toString(heap.toArray()));
 
 		assertEquals(5, heap.size());
 		assertFalse(heap.isEmpty());
