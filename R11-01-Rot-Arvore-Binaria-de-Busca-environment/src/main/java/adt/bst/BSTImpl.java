@@ -67,12 +67,13 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
    @Override
    public void insert(T element) {
-   	if(element != null && search(element).isEmpty()) {
-		treeInsert(getRoot(), new BSTNode<>(), element);
-	}
+      if(element != null && search(element).isEmpty()) {
+         treeInsert(getRoot(), new BSTNode<>(), element);
+      }
    }
 
    private void treeInsert(BSTNode<T> node, BSTNode<T> parent, T element) {
+
       if (node.isEmpty()) {
          node.setData(element);
          node.setLeft(new BSTNode<>());
@@ -125,22 +126,22 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
    @Override
    public BSTNode<T> sucessor(T element) {
       BSTNode<T> sucessor = null;
-		   if (!getRoot().isEmpty() && element != null && !search(element).isEmpty()) {
-			   BSTNode<T> node = search(element);
-			   if (!node.getRight().isEmpty()) {
-				   sucessor = recursiveMinimum(((BSTNode<T>) node.getRight()));
-			   } else {
-				   BSTNode<T> aux = ((BSTNode<T>) node.getParent());
-				   while (!aux.isEmpty() && aux.getRight().equals(node)) {
-					   node = aux;
-					   aux = ((BSTNode<T>) aux.getParent());
-				   }
-				   sucessor = aux;
-			   }
-			   if (sucessor.isEmpty()) {
-				   sucessor = null;
-			   }
-		   }
+      if (!getRoot().isEmpty() && element != null && !search(element).isEmpty()) {
+         BSTNode<T> node = search(element);
+         if (!node.getRight().isEmpty()) {
+            sucessor = recursiveMinimum(((BSTNode<T>) node.getRight()));
+         } else {
+            BSTNode<T> aux = ((BSTNode<T>) node.getParent());
+            while (!aux.isEmpty() && aux.getRight().equals(node)) {
+               node = aux;
+               aux = ((BSTNode<T>) aux.getParent());
+            }
+            sucessor = aux;
+         }
+         if (sucessor.isEmpty()) {
+            sucessor = null;
+         }
+      }
 
       return sucessor;
    }
@@ -256,4 +257,31 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
       return result;
    }
 
+
+   public boolean firstDegreeCousins(T elem1, T elem2) {
+      boolean result = false;
+      if (!isEmpty() && elem1 != null && elem2 != null) {
+         BSTNode<T> node1 = search(elem1);
+         BSTNode<T> node2 = search(elem2);
+         if (node1.getParent().getParent().getData() != null && node2.getParent().getParent().getData() != null) {
+            if (node1.getParent().getData().compareTo(node2.getParent().getData()) != 0) {
+               if (node1.getParent().getParent().getData().compareTo(node2.getParent().getParent().getData()) == 0) {
+                  result = true;
+               }
+            }
+         }
+      }
+      return result;
+   }
+
+   public boolean secondDegreeCousins(T elem1, T elem2){
+      boolean result = false;
+      if(firstDegreeCousins(elem1,search(elem2).getParent().getData())){
+         result = true;
+      }
+      else if(firstDegreeCousins(elem2,search(elem1).getParent().getData())){
+         result = true;
+      }
+      return result;
+   }
 }
