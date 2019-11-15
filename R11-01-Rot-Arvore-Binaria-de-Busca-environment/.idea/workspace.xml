@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d53f8ae-dade-41fd-a970-f3719a3e6cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/src/test/java/adt/avltree/StudentAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/src/test/java/adt/avltree/StudentAVLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/classes/adt/avltree/AVLTreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/classes/adt/avltree/AVLTreeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/test-classes/adt/avltree/StudentAVLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R14-01-Rot-ArvoreAVL-environment/target/test-classes/adt/avltree/StudentAVLTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/submission.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMinHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentPriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentStackPriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/PriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/PriorityQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMinHeapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentPriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentStackPriorityQueueTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,19 +32,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2646">
+            <state relative-caret-position="1580">
               <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1070">
+            <state relative-caret-position="3186">
               <caret line="177" selection-start-line="177" selection-end-line="177" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
@@ -123,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="1298" />
@@ -211,15 +223,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -377,6 +389,7 @@
       <workItem from="1571845442715" duration="8349000" />
       <workItem from="1572910729398" duration="40000" />
       <workItem from="1573001671124" duration="2615000" />
+      <workItem from="1573791684446" duration="1273000" />
     </task>
     <servers />
   </component>
@@ -413,13 +426,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43595000" />
+    <option name="totallyTimeSpent" value="44868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2629896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,6 +525,13 @@
     <entry file="file://$PROJECT_DIR$/118210349-send.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1580">
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -548,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070">
+        <state relative-caret-position="3186">
           <caret line="177" selection-start-line="177" selection-end-line="177" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
@@ -560,13 +580,6 @@
             <element signature="e#7474#7475#0" expanded="true" />
             <element signature="e#7504#7505#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
         </state>
       </provider>
     </entry>

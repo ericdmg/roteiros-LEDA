@@ -185,6 +185,52 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		return array;
 	}
 
+	public T kthSmallestElement(int k, T[] array) {
+      T kthSmallestElement = null;
+       if (k >= 1 && k <= array.length) {
+          if (!this.isEmpty()) {
+             this.index = -1;
+             this.heap = (T[]) new Comparable[k];
+          }
+          Comparator comparator = getComparator();
+          setComparator((o1,o2) -> o1.compareTo(o2));
+          for (int i = 0; i <= k-1; i++) {
+             this.insert(array[i]);
+          }
+          for (int i = k; i < array.length;i++){
+             if(this.heap[0].compareTo(array[i]) > 0){
+                this.heap[0] = array[i];
+             }
+          }
+          kthSmallestElement = this.heap[0];
+          setComparator(comparator);
+       }
+       return kthSmallestElement;
+    }
+
+   public T kthBiggestElement(int k, T[] array) {
+      T kthBiggestElement = null;
+      if(k >= 1 && k <= array.length){
+         if(!isEmpty()){
+            this.index = -1;
+            this.heap = (T[]) new Comparable[k];
+         }
+         Comparator comparator = getComparator();
+         setComparator((o1,o2) -> o2.compareTo(o1));
+         for(int i = 0; i <= k-1;i++){
+            insert(array[i]);
+         }
+         for (int i = k; i < array.length ; i++) {
+            if(this.heap[0].compareTo(array[i]) < 0){
+               this.heap[0] = array[i];
+            }
+         }
+         kthBiggestElement = this.heap[0];
+         setComparator(comparator);
+      }
+      return kthBiggestElement;
+   }
+
    @Override
    public int size() {
       return index + 1;
@@ -201,5 +247,6 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
    public T[] getHeap() {
       return heap;
    }
+
 
 }

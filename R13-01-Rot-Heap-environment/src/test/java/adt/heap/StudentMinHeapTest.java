@@ -112,4 +112,12 @@ public class StudentMinHeapTest {
 		assertTrue(isHeap);
 	}
 
+	@Test
+	public void kthBiggestElement(){
+		Integer[] array = new Integer[]{45,10,35,87,68,37};
+		assertEquals(87, ((HeapImpl) heap).kthBiggestElement(1,array));
+	}
+
+
+
 }
