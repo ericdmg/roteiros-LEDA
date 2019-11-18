@@ -16,7 +16,7 @@ public class StudentBSTTest {
 	private BTNode<Integer> NIL = new BTNode<Integer>();
 
 	private void fillTree() {
-		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40,5 };
+		Integer[] array = { 7,5,9,8,10,6,4,11 };
 		for (int i : array) {
 			tree.insert(i);
 		}
@@ -33,7 +33,15 @@ public class StudentBSTTest {
 		System.out.println(Arrays.toString(tree.order()));
 		System.out.println(Arrays.toString(tree.preOrder()));
 		System.out.println(Arrays.toString(tree.postOrder()));
+		System.out.println(Arrays.toString(((BSTImpl) tree).reverseOrder()));
 	}
+
+	@Test
+	public void testLeavesCount(){
+		fillTree();
+		assertEquals(5,((BSTImpl) tree).countLeaves());
+	}
+
 	@Test
 	public void testInit() {
 		assertTrue(tree.isEmpty());

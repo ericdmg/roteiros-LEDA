@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d53f8ae-dade-41fd-a970-f3719a3e6cc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/submission.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMinHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentPriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentStackPriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/PriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/PriorityQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMinHeapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentPriorityQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentStackPriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/118210349-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/118210349.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/118210349.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/submission-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1580">
-              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+            <state relative-caret-position="144">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3186">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="67">
+              <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
@@ -53,8 +45,10 @@
                 <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#7474#7475#0" expanded="true" />
-                <element signature="e#7504#7505#0" expanded="true" />
+                <element signature="e#7553#7554#0" expanded="true" />
+                <element signature="e#7583#7584#0" expanded="true" />
+                <element signature="e#9419#9420#0" expanded="true" />
+                <element signature="e#9445#9446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +111,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" />
       </list>
     </option>
   </component>
@@ -223,8 +217,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentBSTTest">
+  <component name="RunManager" selected="JUnit.StudentBSTTest.testLeavesCount">
     <configuration name="StudentBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -262,6 +256,38 @@
       <option name="PACKAGE_NAME" value="adt.bst" />
       <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentBSTTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.bst" />
+      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentBSTTest.testLeavesCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.bst" />
+      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
+      <option name="METHOD_NAME" value="testLeavesCount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,22 +308,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentBSTTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.bst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.bst" />
-      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
-      <option name="METHOD_NAME" value="testRemove" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentBSTTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -309,22 +319,6 @@
       <option name="PACKAGE_NAME" value="adt.bst" />
       <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
       <option name="METHOD_NAME" value="testSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentBSTTest.testSucessorPredecessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.bst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.bst" />
-      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
-      <option name="METHOD_NAME" value="testSucessorPredecessor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,20 +351,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentBSTTest.testRemove" />
       <item itemvalue="JUnit.StudentBSTTest" />
       <item itemvalue="JUnit.StudentBSTTest.testSize" />
-      <item itemvalue="JUnit.StudentBSTTest.testSucessorPredecessor" />
       <item itemvalue="JUnit.StudentBSTTest.testOrders" />
       <item itemvalue="Maven.rodar maven" />
+      <item itemvalue="JUnit.StudentBSTTest.testCount" />
+      <item itemvalue="JUnit.StudentBSTTest.testLeavesCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentBSTTest" />
+        <item itemvalue="JUnit.StudentBSTTest.testLeavesCount" />
+        <item itemvalue="JUnit.StudentBSTTest.testCount" />
         <item itemvalue="JUnit.StudentBSTTest.testOrders" />
+        <item itemvalue="JUnit.StudentBSTTest" />
         <item itemvalue="JUnit.StudentBSTTest.testSize" />
-        <item itemvalue="JUnit.StudentBSTTest.testSucessorPredecessor" />
-        <item itemvalue="JUnit.StudentBSTTest.testRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -390,49 +384,50 @@
       <workItem from="1572910729398" duration="40000" />
       <workItem from="1573001671124" duration="2615000" />
       <workItem from="1573791684446" duration="1273000" />
+      <workItem from="1573862237918" duration="629000" />
+      <workItem from="1574029374578" duration="3948000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentBSTTest - 2019.10.23 at 15h 09m 05s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 14m 06s.xml">
+    <history-entry file="StudentBSTTest_testOrders - 2019.11.17 at 19h 26m 08s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 14m 36s.xml">
+    <history-entry file="StudentBSTTest_testOrders - 2019.11.17 at 19h 28m 50s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 14m 39s.xml">
+    <history-entry file="StudentBSTTest_testOrders - 2019.11.17 at 19h 30m 14s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 14m 57s.xml">
+    <history-entry file="StudentBSTTest_testOrders - 2019.11.17 at 19h 30m 59s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 15m 13s.xml">
+    <history-entry file="StudentBSTTest_testOrders - 2019.11.17 at 19h 31m 41s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest_testOrders - 2019.10.23 at 15h 16m 18s.xml">
+    <history-entry file="StudentBSTTest_testOrders - 2019.11.17 at 19h 31m 45s.xml">
       <configuration name="StudentBSTTest.testOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest - 2019.11.06 at 00h 00m 33s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    <history-entry file="StudentBSTTest_testCount - 2019.11.17 at 21h 01m 21s.xml">
+      <configuration name="StudentBSTTest.testCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest - 2019.11.06 at 00h 00m 39s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    <history-entry file="StudentBSTTest_testCount - 2019.11.17 at 21h 01m 23s.xml">
+      <configuration name="StudentBSTTest.testCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentBSTTest - 2019.11.06 at 00h 00m 42s.xml">
-      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    <history-entry file="StudentBSTTest_testCount - 2019.11.17 at 21h 01m 39s.xml">
+      <configuration name="StudentBSTTest.testCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest_testLeavesCount - 2019.11.17 at 21h 09m 24s.xml">
+      <configuration name="StudentBSTTest.testLeavesCount" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44868000" />
+    <option name="totallyTimeSpent" value="49445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2773781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,7 +436,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32888147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,13 +520,6 @@
     <entry file="file://$PROJECT_DIR$/118210349-send.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
-          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -568,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3186">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="67">
+          <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#201#202#0" expanded="true" />
@@ -577,9 +565,18 @@
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#7474#7475#0" expanded="true" />
-            <element signature="e#7504#7505#0" expanded="true" />
+            <element signature="e#7553#7554#0" expanded="true" />
+            <element signature="e#7583#7584#0" expanded="true" />
+            <element signature="e#9419#9420#0" expanded="true" />
+            <element signature="e#9445#9446#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
         </state>
       </provider>
     </entry>

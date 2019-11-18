@@ -216,6 +216,19 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
       return (T[]) arrayListOrder.toArray(new Comparable[size()]);
    }
 
+   public T[] reverseOrder() {
+      ArrayList<T> arrayListOrder = new ArrayList<>();
+      reverseOrdering(getRoot(), arrayListOrder);
+      return (T[]) arrayListOrder.toArray(new Comparable[size()]);
+   }
+
+   private void reverseOrdering(BSTNode<T> node, ArrayList<T> arrayListOrder) {
+      if (!node.isEmpty()) {
+         reverseOrdering(((BSTNode<T>) node.getRight()), arrayListOrder);
+         arrayListOrder.add(node.getData());
+         reverseOrdering(((BSTNode<T>) node.getLeft()), arrayListOrder);
+      }
+   }
    private void ordering(BSTNode<T> node, ArrayList<T> arrayListOrder) {
       if (!node.isEmpty()) {
          ordering(((BSTNode<T>) node.getLeft()), arrayListOrder);
@@ -283,5 +296,19 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
          result = true;
       }
       return result;
+   }
+
+   public int countLeaves(){
+      return recursiveLeavesCount(getRoot());
+   }
+
+   private int recursiveLeavesCount(BSTNode<T> node) {
+      if(node.isEmpty()){
+         return 0;
+      }
+      if(node.isLeaf()){
+         return 1;
+      }
+      return recursiveLeavesCount(((BSTNode<T>) node.getLeft())) + recursiveLeavesCount(((BSTNode<T>)node.getRight()));
    }
 }
