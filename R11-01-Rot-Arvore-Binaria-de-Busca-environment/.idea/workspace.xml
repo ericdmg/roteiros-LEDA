@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d53f8ae-dade-41fd-a970-f3719a3e6cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/118210349-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/118210349-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/118210349.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/118210349.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/target/submission-1.0.jar" afterDir="false" />
-    </list>
+    <list default="true" id="2d53f8ae-dade-41fd-a970-f3719a3e6cc8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
+            <state relative-caret-position="5256">
               <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
@@ -45,10 +36,8 @@
                 <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#7553#7554#0" expanded="true" />
-                <element signature="e#7583#7584#0" expanded="true" />
                 <element signature="e#9419#9420#0" expanded="true" />
-                <element signature="e#9445#9446#0" expanded="true" />
+                <element signature="e#9470#9471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -225,7 +214,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/roteiros-LEDA-726dadd3d0765ef2e8e9033185d7431ad0dcb28e" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -354,9 +343,9 @@
       <item itemvalue="JUnit.StudentBSTTest" />
       <item itemvalue="JUnit.StudentBSTTest.testSize" />
       <item itemvalue="JUnit.StudentBSTTest.testOrders" />
-      <item itemvalue="Maven.rodar maven" />
       <item itemvalue="JUnit.StudentBSTTest.testCount" />
       <item itemvalue="JUnit.StudentBSTTest.testLeavesCount" />
+      <item itemvalue="Maven.rodar maven" />
     </list>
     <recent_temporary>
       <list>
@@ -386,6 +375,7 @@
       <workItem from="1573791684446" duration="1273000" />
       <workItem from="1573862237918" duration="629000" />
       <workItem from="1574029374578" duration="3948000" />
+      <workItem from="1574084547381" duration="459000" />
     </task>
     <servers />
   </component>
@@ -422,12 +412,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49445000" />
+    <option name="totallyTimeSpent" value="49904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2773781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28217426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,6 +510,30 @@
     <entry file="file://$PROJECT_DIR$/118210349-send.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5256">
+          <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#9419#9420#0" expanded="true" />
+            <element signature="e#9470#9471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -551,32 +565,6 @@
             <element signature="e#529#530#0" expanded="true" />
             <element signature="e#607#608#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#7553#7554#0" expanded="true" />
-            <element signature="e#7583#7584#0" expanded="true" />
-            <element signature="e#9419#9420#0" expanded="true" />
-            <element signature="e#9445#9446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
         </state>
       </provider>
     </entry>

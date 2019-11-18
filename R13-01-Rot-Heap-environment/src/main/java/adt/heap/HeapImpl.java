@@ -200,6 +200,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
           for (int i = k; i < array.length;i++){
              if(this.heap[0].compareTo(array[i]) > 0){
                 this.heap[0] = array[i];
+                heapify(0);
              }
           }
           kthSmallestElement = this.heap[0];
@@ -223,6 +224,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
          for (int i = k; i < array.length ; i++) {
             if(this.heap[0].compareTo(array[i]) < 0){
                this.heap[0] = array[i];
+               heapify(0);
             }
          }
          kthBiggestElement = this.heap[0];

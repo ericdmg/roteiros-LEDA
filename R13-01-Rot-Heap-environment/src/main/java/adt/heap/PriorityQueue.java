@@ -9,12 +9,12 @@ public class PriorityQueue<T extends Comparable<T>>{
         this.structure = new HeapImpl<T>(comparator);
     }
 
-//    public <T extends Comparable>void insert(T element) {
-//        if (element != null) {
-//            getStructure().insert(element);
-//        }
-//
-//    }
+    public void insert(T element) {
+        if (element != null) {
+            getStructure().insert(element);
+        }
+
+    }
 
     public T maximum() {
         T maximum = null;

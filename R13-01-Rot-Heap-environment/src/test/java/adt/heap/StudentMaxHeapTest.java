@@ -20,17 +20,17 @@ public class StudentMaxHeapTest {
 		// TODO Instancie seu comparator para fazer sua estrutura funcionar como
 		// uma max heap aqui. Use instanciacao anonima da interface
 		// Comparator!!!!
-		heap = new HeapImpl<Integer>((o1,o2) -> o1.compareTo(o2));
+		heap = new HeapImpl<Integer>((o1, o2) -> o1.compareTo(o2));
 	}
 
 	@Test
 	public void testBuild() {
-		heap.buildHeap(new Integer[] { 82, 6, 99, 12, 34, 64, 58, 1 });
+		heap.buildHeap(new Integer[]{82, 6, 99, 12, 34, 64, 58, 1});
 
 		assertEquals(8, heap.size());
 		assertFalse(heap.isEmpty());
 
-		verifyHeap(new Integer[] { 99, 12, 82, 6, 34, 64, 58, 1 });
+		verifyHeap(new Integer[]{99, 12, 82, 6, 34, 64, 58, 1});
 	}
 
 	@Test
@@ -59,7 +59,7 @@ public class StudentMaxHeapTest {
 		assertEquals(10, heap.size());
 		assertFalse(heap.isEmpty());
 
-		verifyHeap(new Integer[] { 14, 8, 12, 7, 8, -5, -2, 3, -10, 0 });
+		verifyHeap(new Integer[]{14, 8, 12, 7, 8, -5, -2, 3, -10, 0});
 	}
 
 	@Test
@@ -84,7 +84,6 @@ public class StudentMaxHeapTest {
 		heap.insert(30);
 
 
-
 		assertEquals(new Integer(79), heap.extractRootElement());
 		System.out.println(Arrays.toString(heap.toArray()));
 		assertEquals(new Integer(53), heap.extractRootElement());
@@ -99,7 +98,7 @@ public class StudentMaxHeapTest {
 		assertEquals(5, heap.size());
 		assertFalse(heap.isEmpty());
 
-		verifyHeap(new Integer[] { 22, 17, 15, 26, 30 });
+		verifyHeap(new Integer[]{22, 17, 15, 26, 30});
 		heap.extractRootElement();
 		heap.extractRootElement();
 		heap.extractRootElement();
@@ -110,13 +109,13 @@ public class StudentMaxHeapTest {
 
 	@Test
 	public void testSort() {
-		assertArrayEquals(new Integer[] { 5, 6, 12, 20, 34, 43, 49, 92 },
-				heap.heapsort(new Integer[] { 34, 92, 5, 12, 49, 20, 43, 6 }));
+		assertArrayEquals(new Integer[]{5, 6, 12, 20, 34, 43, 49, 92},
+				heap.heapsort(new Integer[]{34, 92, 5, 12, 49, 20, 43, 6}));
 
 		assertEquals(0, heap.size());
 		assertTrue(heap.isEmpty());
 
-		assertArrayEquals(new Integer[] {}, heap.toArray());
+		assertArrayEquals(new Integer[]{}, heap.toArray());
 	}
 
 	private void verifyHeap(Integer[] expected) {
@@ -142,9 +141,29 @@ public class StudentMaxHeapTest {
 		assertTrue(isHeap);
 	}
 
-    @Test
-    public void kthSmallestElement(){
-        Integer[] array = new Integer[]{45,10,35,87,68,37};
-        assertEquals(87, ((HeapImpl) heap).kthSmallestElement(6,array));
-    }
+	@Test
+	public void kthSmallestElement() {
+		Integer[] array = new Integer[]{2,3,-1,4};
+		assertEquals(-1, ((HeapImpl) heap).kthSmallestElement(2, array));
+	}
+
+	@Test
+	public void testStack() {
+		StackHeap<String> stackHeap = new StackHeap(new CompareByPriority());
+		stackHeap.insert("c");
+		System.out.println((stackHeap.top()));
+		stackHeap.insert("b");
+		System.out.println(stackHeap.top());
+		stackHeap.insert("a");
+		System.out.println(stackHeap.top());
+
+		System.out.println(stackHeap.pop());
+		System.out.println((stackHeap.top()));
+		System.out.println(stackHeap.pop());
+		System.out.println((stackHeap.top()));
+		System.out.println(stackHeap.pop());
+
+
+
+	}
 }

@@ -2,7 +2,7 @@ package adt.heap;
 
 import java.util.Comparator;
 
-public class Position<T>  implements Comparable<Position> {
+public class Position<T> implements Comparable<Position> {
     public T getData() {
         return data;
     }
@@ -19,9 +19,8 @@ public class Position<T>  implements Comparable<Position> {
         return this.priority;
     }
 
-
     @Override
     public int compareTo(Position o) {
-        return 0;
+        return this.priority.compareTo(o.getPriority());
     }
 }

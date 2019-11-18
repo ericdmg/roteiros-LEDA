@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="571ac33a-77c8-4932-a5e3-ee7fc5dd8fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvorePV-environment/submission.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-BST-Comparator-Sorting-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentPriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentStackPriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/heap/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/heap/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/heap/PriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/heap/PriorityQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMaxHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMaxHeapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMinHeapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentPriorityQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentStackPriorityQueueTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="571ac33a-77c8-4932-a5e3-ee7fc5dd8fdb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3708">
-              <caret line="218" column="36" selection-start-line="218" selection-start-column="36" selection-end-line="218" selection-end-column="36" />
+            <state relative-caret-position="247">
+              <caret line="226" column="26" lean-forward="true" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
               <folding>
                 <element signature="e#1961#1962#0" expanded="true" />
                 <element signature="e#1994#1995#0" expanded="true" />
@@ -58,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="265">
+              <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,36 +49,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Position.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2412">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="180">
+              <caret line="146" column="63" selection-start-line="146" selection-start-column="63" selection-end-line="146" selection-end-column="63" />
+              <folding>
+                <marker date="1574094377614" expanded="true" signature="3451:3604" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/CompareByPriority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,13 +109,14 @@
         <option value="$PROJECT_DIR$/src/main/java/adt/heap/compareDataByPriority.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/heap/compareByPriority.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentPriorityQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/heap/Position.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentStackPriorityQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/heap/StackPriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/heap/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/heap/StackHeap.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" />
       </list>
     </option>
   </component>
@@ -160,8 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,9 +210,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -312,6 +285,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentMaxHeapTest.testStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.heap" />
+      <option name="MAIN_CLASS_NAME" value="adt.heap.StudentMaxHeapTest" />
+      <option name="METHOD_NAME" value="testStack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentMinHeapTest.kthBiggestElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -339,22 +328,6 @@
       <option name="PACKAGE_NAME" value="adt.heap" />
       <option name="MAIN_CLASS_NAME" value="adt.heap.StudentMinHeapTest" />
       <option name="METHOD_NAME" value="kthSmallestElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentStackPriorityQueueTest.pushTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.heap" />
-      <option name="MAIN_CLASS_NAME" value="adt.heap.StudentStackPriorityQueueTest" />
-      <option name="METHOD_NAME" value="pushTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -388,20 +361,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StudentMaxHeapTest.testInsert" />
-      <item itemvalue="JUnit.StudentStackPriorityQueueTest.pushTest" />
       <item itemvalue="JUnit.StudentMinHeapTest.kthSmallestElement" />
       <item itemvalue="JUnit.StudentMaxHeapTest.kthBiggestElement" />
       <item itemvalue="JUnit.StudentMaxHeapTest.kthSmallestElement" />
       <item itemvalue="JUnit.StudentMinHeapTest.kthBiggestElement" />
       <item itemvalue="Maven.rodar maven" />
+      <item itemvalue="JUnit.StudentMaxHeapTest.testStack" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentMinHeapTest.kthBiggestElement" />
         <item itemvalue="JUnit.StudentMaxHeapTest.kthSmallestElement" />
+        <item itemvalue="JUnit.StudentMaxHeapTest.testStack" />
         <item itemvalue="JUnit.StudentMaxHeapTest.kthBiggestElement" />
         <item itemvalue="JUnit.StudentMinHeapTest.kthSmallestElement" />
-        <item itemvalue="JUnit.StudentStackPriorityQueueTest.pushTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,49 +395,50 @@
       <workItem from="1573688669412" duration="3431000" />
       <workItem from="1573776594439" duration="18714000" />
       <workItem from="1573858939986" duration="254000" />
+      <workItem from="1574085329293" duration="6569000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 31m 42s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 32m 13s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 32m 11s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 32m 37s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 32m 21s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 32m 45s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 37m 53s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 34m 46s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 38m 23s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 35m 04s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 38m 29s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 35m 14s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 39m 10s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 35m 27s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMinHeapTest_kthSmallestElement - 2019.11.15 at 19h 40m 14s.xml">
-      <configuration name="StudentMinHeapTest.kthSmallestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 35m 40s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest_kthBiggestElement - 2019.11.15 at 19h 49m 51s.xml">
-      <configuration name="StudentMaxHeapTest.kthBiggestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 35m 55s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest_kthBiggestElement - 2019.11.15 at 19h 50m 57s.xml">
-      <configuration name="StudentMaxHeapTest.kthBiggestElement" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest_kthBiggestElement - 2019.11.18 at 13h 36m 05s.xml">
+      <configuration name="StudentMinHeapTest.kthBiggestElement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55453000" />
+    <option name="totallyTimeSpent" value="62022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27657872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2813749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,7 +447,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,6 +469,38 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32933652" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2813749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32888147" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32933652" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -504,9 +510,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java</url>
-          <line>91</line>
+          <line>90</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -541,14 +553,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/compareDataByPriority.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentPriorityQueueTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/StackPriorityQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentStackPriorityQueueTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="326">
           <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/compareDataByPriority.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/CompareByPriority.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -560,13 +575,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentPriorityQueueTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/StackPriorityQueue.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentStackPriorityQueueTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/StackHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="146" column="63" selection-start-line="146" selection-start-column="63" selection-end-line="146" selection-end-column="63" />
+          <folding>
+            <marker date="1574094377614" expanded="true" signature="3451:3604" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3708">
-          <caret line="218" column="36" selection-start-line="218" selection-start-column="36" selection-end-line="218" selection-end-column="36" />
+        <state relative-caret-position="247">
+          <caret line="226" column="26" lean-forward="true" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
           <folding>
             <element signature="e#1961#1962#0" expanded="true" />
             <element signature="e#1994#1995#0" expanded="true" />
@@ -582,39 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2412">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="265">
+          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
