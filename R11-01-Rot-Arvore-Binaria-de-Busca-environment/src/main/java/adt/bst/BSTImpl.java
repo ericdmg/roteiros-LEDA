@@ -1,5 +1,7 @@
 package adt.bst;
 
+import adt.bt.BTNode;
+
 import java.util.ArrayList;
 
 public class BSTImpl<T extends Comparable<T>> implements BST<T> {
@@ -132,17 +134,25 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
             sucessor = recursiveMinimum(((BSTNode<T>) node.getRight()));
          } else {
             BSTNode<T> aux = ((BSTNode<T>) node.getParent());
-            while (!aux.isEmpty() && aux.getRight().equals(node)) {
-               node = aux;
-               aux = ((BSTNode<T>) aux.getParent());
-            }
-            sucessor = aux;
+            sucessor = recursiveSucessor(aux,node);
          }
          if (sucessor.isEmpty()) {
             sucessor = null;
          }
       }
 
+      return sucessor;
+   }
+
+   public BSTNode<T> recursiveSucessor(BSTNode<T> aux, BSTNode<T> previousAux){
+      BSTNode<T> sucessor;
+      if(aux.isEmpty()){
+         sucessor = null;
+      }
+      else if(aux.getData().compareTo(previousAux.getData()) < 0){
+         sucessor = previousAux;
+      }
+      else sucessor = recursiveSucessor(((BSTNode<T>) aux.getParent()),((BSTNode<T>) previousAux.getParent()));
       return sucessor;
    }
 
@@ -310,5 +320,59 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
          return 1;
       }
       return recursiveLeavesCount(((BSTNode<T>) node.getLeft())) + recursiveLeavesCount(((BSTNode<T>)node.getRight()));
+   }
+
+   public boolean isDescentdant(T d, T p){
+      boolean result = false;
+      if(d != null && p != null && !search(p).isEmpty()){
+         BSTNode<T> nodeParent = search(p);
+         if(p.compareTo(d) < 0){
+            result = recursiveIsDescendant(nodeParent.getRight(),d);
+         }
+         else result = recursiveIsDescendant(nodeParent.getLeft(),d);
+      }
+      return result;
+   }
+
+   private boolean recursiveIsDescendant(BTNode<T> otherSon, T son) {
+      boolean result;
+      if(otherSon.isEmpty()){
+         result = false;
+      }
+      else if(otherSon.getData().compareTo(son) == 0){
+         result = true;
+      }
+      else if(otherSon.getData().compareTo(son) < 0){
+         result = recursiveIsDescendant(otherSon.getRight(),son);
+      }
+      else result = recursiveIsDescendant(otherSon.getLeft(),son);
+      return result;
+   }
+
+   public int distance(T p, T d){
+      int result = 0;
+      if(d != null && p != null && !search(p).isEmpty() && (p.compareTo(d) != 0) && isDescentdant(d,p)){
+         BSTNode<T> nodeParent = search(p);
+         if(p.compareTo(d) < 0){
+            result = recursiveDistance(nodeParent.getRight(),d);
+         }
+         else result = recursiveDistance(nodeParent.getLeft(),d);
+      }
+      return result;
+   }
+
+   private int recursiveDistance(BTNode<T> otherSon, T son) {
+      int result;
+      if(otherSon.isEmpty()){
+         result = 0;
+      }
+      else if(otherSon.getData().compareTo(son) == 0){
+         result = 1;
+      }
+      else if(otherSon.getData().compareTo(son) < 0){
+         result = 1 + recursiveDistance(otherSon.getRight(),son);
+      }
+      else result = 1 + recursiveDistance(otherSon.getLeft(),son);
+      return result;
    }
 }

@@ -16,7 +16,7 @@ public class StudentBSTTest {
 	private BTNode<Integer> NIL = new BTNode<Integer>();
 
 	private void fillTree() {
-		Integer[] array = { 7,5,9,8,10,6,4,11 };
+		Integer[] array = { -40, -34 ,0, 2 ,5 ,6 ,9 ,12, 23, 67 ,76 ,232 };
 		for (int i : array) {
 			tree.insert(i);
 		}
@@ -39,7 +39,7 @@ public class StudentBSTTest {
 	@Test
 	public void testLeavesCount(){
 		fillTree();
-		assertEquals(5,((BSTImpl) tree).countLeaves());
+		assertEquals(1,((BSTImpl) tree).countLeaves());
 	}
 
 	@Test
@@ -168,5 +168,19 @@ public class StudentBSTTest {
 		assertEquals(new Integer(-40), tree.search(-40).getData());
 		assertEquals(new Integer(-34), tree.search(-34).getData());
 		assertEquals(NIL, tree.search(2534));
+	}
+
+	@Test
+	public void testIsDescendant() {
+		fillTree();
+		assertTrue(((BSTImpl) tree).isDescentdant(-34, -40));
+		assertFalse(((BSTImpl) tree).isDescentdant(-55, -40));
+	}
+
+	@Test
+	public void testDistance(){
+		fillTree();
+		Integer[] array = { -40, -34 ,0, 2 ,5 ,6 ,9 ,12, 23, 67 ,76 ,232 };
+		assertEquals(11,tree.distance(-40,232));
 	}
 }
