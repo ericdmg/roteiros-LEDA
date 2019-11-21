@@ -375,4 +375,23 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
       else result = 1 + recursiveDistance(otherSon.getLeft(),son);
       return result;
    }
+
+   public boolean isBST(BSTNode<T> root){
+      if (root.isEmpty()){
+         return true;
+      }
+      if(!root.isLeaf()){
+         if(root.getRight().isEmpty() && root.getData().compareTo(root.getLeft().getData()) > 0){
+            return true;
+         }
+         else if(root.getLeft().isEmpty() && root.getData().compareTo(root.getRight().getData()) < 0){
+            return true;
+         }
+         else return false;
+      }
+      else if(root.getData().compareTo(root.getRight().getData()) > 0 || root.getData().compareTo(root.getLeft().getData()) < 0) {
+         return false;
+      }
+      else return isBST((BSTNode<T>) root.getLeft()) &&  isBST((BSTNode<T>) root.getRight());
+   }
 }

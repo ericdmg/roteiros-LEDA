@@ -4,6 +4,11 @@ import adt.bst.BSTImpl;
 import adt.bst.BSTNode;
 import adt.bt.Util;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * 
  * Implementacao de uma arvore AVL
@@ -134,6 +139,30 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
       while (!parent.isEmpty()) {
          rebalance(((BSTNode<T>) parent));
          parent = ((BSTNode<T>) parent.getParent());
+      }
+   }
+
+   public void noRotationInsertion(T[] array) {
+      List<T[]> list = new ArrayList<>();
+      Arrays.sort(array);
+      list.add(array);
+
+      int i = 0;
+      while (i < list.size()) {
+         T[] aux = list.get(i);
+
+         int mid = aux.length / 2;
+         T[] aux1 = Arrays.copyOfRange(aux, 0, mid);
+         T[] aux2 = Arrays.copyOfRange(aux, mid+1, aux.length);
+
+         if (i > 1) {
+            list.add(aux1);
+            list.add(aux2);
+         }
+
+         insert(array[mid]);
+         i++;
+
       }
    }
 }

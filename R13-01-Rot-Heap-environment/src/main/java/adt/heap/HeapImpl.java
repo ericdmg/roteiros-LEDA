@@ -203,7 +203,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
                 heapify(0);
              }
           }
-          kthSmallestElement = this.heap[0];
+          kthSmallestElement = rootElement();
           setComparator(comparator);
        }
        return kthSmallestElement;
@@ -227,10 +227,45 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
                heapify(0);
             }
          }
-         kthBiggestElement = this.heap[0];
+         kthBiggestElement = rootElement();
          setComparator(comparator);
       }
       return kthBiggestElement;
+   }
+
+   public T[] mergeHeapSort(T[] array1, T[] array2){
+      if(isEmpty()){
+         this.index = -1;
+         this.heap = (T[]) new Comparable[array1.length + array2.length];
+      }
+      Comparator comparator = getComparator();
+      setComparator((o1,o2) -> o2.compareTo(o1));
+      for (T element : array1) {
+         insert(element);
+      }
+      for (T element : array2){
+         insert(element);
+      }
+      T[] mergedHeapSortedArray = (T[]) new Comparable[array1.length + array2.length];
+      for (int i = 0; i < mergedHeapSortedArray.length; i++) {
+         mergedHeapSortedArray[i] = extractRootElement();
+      }
+      setComparator(comparator);
+      return mergedHeapSortedArray;
+   }
+   public T[] elementsByLevel(int level){
+      int indexFirstNode = (int) Math.pow(2,level) - 1;
+      int indexLastNode = indexFirstNode * 2;
+      int range = indexLastNode - indexFirstNode + 1;
+      T[] array = (T[]) new Comparable[0];
+      if(this.index >= indexFirstNode) {
+         array = (T[]) new Comparable[range];
+         for (int i = 0; i < range; i++) {
+            array[i] = this.heap[i + indexFirstNode];
+         }
+      }
+      else System.out.println("Ainda não há vértices no nível " + level);
+      return array;
    }
 
    @Override
@@ -240,6 +275,27 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
    public Comparator<T> getComparator() {
       return comparator;
+   }
+
+   public int rangeSum(T[] array, int k1, int k2) {
+      int soma = 0;
+      if (getComparator().compare((T) (Integer) 1, (T) (Integer) 2) > 0) {
+         buildHeap(array);
+         for (int i = 0; i < k2 - 1; i++) {
+            if (i > k1 - 1) {
+               soma += (Integer) extractRootElement();
+            } else extractRootElement();
+         }
+      }
+      else{
+         buildHeap(array);
+         for (int i = index; i > k1 - 1; i--) {
+            if (i < k2 - 1) {
+               soma += (Integer) extractRootElement();
+            } else extractRootElement();
+         }
+      }
+      return soma;
    }
 
    public void setComparator(Comparator<T> comparator) {

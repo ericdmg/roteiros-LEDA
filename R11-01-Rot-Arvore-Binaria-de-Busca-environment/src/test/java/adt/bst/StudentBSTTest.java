@@ -183,4 +183,10 @@ public class StudentBSTTest {
 		Integer[] array = { -40, -34 ,0, 2 ,5 ,6 ,9 ,12, 23, 67 ,76 ,232 };
 		assertEquals(11,tree.distance(-40,232));
 	}
+
+	@Test
+	public void testIsBST(){
+		fillTree();
+		assertTrue(tree.isBST(tree.getRoot()));
+	}
 }

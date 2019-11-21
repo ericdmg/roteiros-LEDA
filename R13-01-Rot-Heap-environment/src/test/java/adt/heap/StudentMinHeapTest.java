@@ -118,6 +118,29 @@ public class StudentMinHeapTest {
 		assertEquals(2, ((HeapImpl) heap).kthBiggestElement(3,array));
 	}
 
+	@Test
+    public void mergedHeapSortTest(){
+        Integer[] array = new Integer[]{2,3,-1,4};
+        Integer[] array2 = new Integer[]{7,-5,14,12,0};
+        assertEquals(new Integer[]{-5,-1, 0, 2, 3, 4, 7, 12, 14}, ((HeapImpl) heap).mergeHeapSort(array,array2));
+        System.out.println(Arrays.toString(((HeapImpl) heap).mergeHeapSort(array,array2)));
+    }
+
+	@Test
+	public void elementsByLevel(){
+		Integer[] array = new Integer[]{2,3,-1,4};
+		for(Integer element : array){
+			heap.insert(element);
+		}
+		assertEquals(new Integer[]{-1}, ((HeapImpl) heap).elementsByLevel(0));
+		assertEquals(new Integer[]{3,2}, ((HeapImpl) heap).elementsByLevel(1));
+
+		heap.insert(5);
+		heap.insert(6);
+		heap.insert(7);
+		assertEquals(new Integer[]{4,5,6,7}, ((HeapImpl) heap).elementsByLevel(2));
+		assertEquals(new Integer[]{}, ((HeapImpl) heap).elementsByLevel(3));
 
 
+	}
 }

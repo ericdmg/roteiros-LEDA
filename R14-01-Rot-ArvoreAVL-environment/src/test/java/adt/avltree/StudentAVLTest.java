@@ -15,7 +15,7 @@ public class StudentAVLTest {
 	private BSTNode<Integer> NIL = new BSTNode<Integer>();
 
 	private void fillTree() {
-		Integer[] array = { 6, 23, -34, 5, 9, 2, 0, 76, 12, 67, 232, -40,5 };
+		Integer[] array = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 };
 		for (int i : array) {
 			System.out.println(i);
 			avl.insert(i);
@@ -290,5 +290,10 @@ public class StudentAVLTest {
 		assertEquals(new Integer(-40), avl.search(-40).getData());
 		assertEquals(new Integer(-34), avl.search(-34).getData());
 		assertEquals(NIL, avl.search(2534));
+	}
+
+	@Test
+	public void testNoRotation(){
+		((AVLTreeImpl) avl).noRotationInsertion(new Integer[]{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16});
 	}
 }

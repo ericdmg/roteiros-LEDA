@@ -144,26 +144,30 @@ public class StudentMaxHeapTest {
 	@Test
 	public void kthSmallestElement() {
 		Integer[] array = new Integer[]{2,3,-1,4};
-		assertEquals(-1, ((HeapImpl) heap).kthSmallestElement(2, array));
+		assertEquals(2, ((HeapImpl) heap).kthSmallestElement(2, array));
 	}
 
 	@Test
 	public void testStack() {
-		StackHeap<String> stackHeap = new StackHeap(new CompareByPriority());
+		StackHeap<String> stackHeap = new StackHeap(new CompareByPriority(),3);
 		stackHeap.insert("c");
-		System.out.println((stackHeap.top()));
 		stackHeap.insert("b");
-		System.out.println(stackHeap.top());
 		stackHeap.insert("a");
-		System.out.println(stackHeap.top());
+
+		stackHeap.insert("z");
+
 
 		System.out.println(stackHeap.pop());
-		System.out.println((stackHeap.top()));
 		System.out.println(stackHeap.pop());
-		System.out.println((stackHeap.top()));
+		System.out.println(stackHeap.pop());
 		System.out.println(stackHeap.pop());
 
 
 
+	}
+
+	@Test
+	public void testRangeSum(){
+		assertEquals(44,((HeapImpl) heap).rangeSum(new Integer[]{1,2,3,4,5,6,7,8,9,10},1,10));
 	}
 }

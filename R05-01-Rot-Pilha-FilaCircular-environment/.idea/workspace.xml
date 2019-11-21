@@ -3,18 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="e386d557-2e78-486d-bd64-6aae6aa46766" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/queue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/queue/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/QueueImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/queue/QueueImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/StackImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/stack/StackImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/SingleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/SingleLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/SingleLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/SingleLinkedListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/CircularQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/QueueImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/QueueOverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/QueueUnderflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/StackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/StackOverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/StackUnderflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/StackHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/main/java/adt/heap/StackHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMaxHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMaxHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/src/test/java/adt/heap/StudentMinHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/StackHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/classes/adt/heap/StackHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMaxHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMaxHeapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R13-01-Rot-Heap-environment/target/test-classes/adt/heap/StudentMinHeapTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/queue/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="107" column="43" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -89,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -192,7 +210,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568664321714" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R11-01-Rot-Arvore-Binaria-de-Busca-environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R13-01-Rot-Heap-environment" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,6 +365,7 @@
       <workItem from="1571243686107" duration="605000" />
       <workItem from="1571265644637" duration="1894000" />
       <workItem from="1571699870137" duration="1073000" />
+      <workItem from="1574204458413" duration="44000" />
     </task>
     <servers />
   </component>
@@ -383,12 +402,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33306000" />
+    <option name="totallyTimeSpent" value="33350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32054356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3261391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -583,17 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="107" column="43" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/queue/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -604,6 +616,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="43" />
         </state>
       </provider>
     </entry>
